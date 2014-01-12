@@ -1,0 +1,3474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res" >
+            <file
+                name="round_background"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable/round_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="action_export"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/action_export.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="action_import"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/action_import.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="action_search"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="action_settings"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/action_settings.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="add_group"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/add_group.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="cancel_full_screen"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/cancel_full_screen.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_copy"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/content_copy.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/content_discard.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_edit"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/content_edit.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/content_new.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="dimmed_rating_important"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/dimmed_rating_important.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="dimmed_rating_not_important"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/dimmed_rating_not_important.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="full_screen"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/full_screen.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="group_collapsed"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/group_collapsed.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="group_expanded"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/group_expanded.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="hide_reads"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/hide_reads.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/ic_drawer.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_statusbar_rss"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/ic_statusbar_rss.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/icon.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="rating_important"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/rating_important.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="rating_not_important"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/rating_not_important.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="read_all"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/read_all.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="refresh"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/refresh.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="social_share"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/social_share.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="sort"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/sort.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="view_reads"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/drawable-xhdpi/view_reads.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_entry"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/activity_entry.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_feed_edit"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/activity_feed_edit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_home"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/activity_home.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_preferences"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/activity_preferences.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_progress"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/activity_progress.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_color_transparency_picker"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/dialog_color_transparency_picker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_filter_edit"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/dialog_filter_edit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_search_feed"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/dialog_search_feed.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_edit_feed_list"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/fragment_edit_feed_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_entry"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/fragment_entry.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_entry_list"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/fragment_entry_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_drawer_list"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/item_drawer_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_entry_list"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/item_entry_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_feed_list"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/item_feed_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_search_result"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/item_search_result.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/widget.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_config"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/widget_config.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_item"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/widget_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_preferences"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/layout/widget_preferences.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drawer"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/menu/drawer.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="edit_context_menu"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/menu/edit_context_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="edit_feed"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/menu/edit_feed.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="entry"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/menu/entry.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="entry_list"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/menu/entry_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="feed_context_menu"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/menu/feed_context_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="feed_list"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/menu/feed_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="default_feeds"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/raw/default_feeds.opml"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values/not_translatable_strings.xml"
+                qualifiers="" >
+                <string-array
+                    name="settings_font_size_values"
+                    translatable="false" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                </string-array>
+                <string-array
+                    name="settings_proxy_types_names"
+                    translatable="false" >
+                    <item>
+HTTP
+                    </item>
+                    <item>
+SOCKS
+                    </item>
+                </string-array>
+                <string-array
+                    name="settings_keep_time_values"
+                    translatable="false" >
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+4
+                    </item>
+                    <item>
+7
+                    </item>
+                    <item>
+14
+                    </item>
+                    <item>
+30
+                    </item>
+                    <item>
+61
+                    </item>
+                    <item>
+91
+                    </item>
+                    <item>
+0
+                    </item>
+                </string-array>
+                <string-array
+                    name="settings_proxy_types"
+                    translatable="false" >
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                </string-array>
+
+                <string
+                    name="app_name"
+                    translatable="false" >FeedEx
+                </string>
+
+                <string-array
+                    name="settings_interval_values"
+                    translatable="false" >
+                    <item>
+60000
+                    </item>
+                    <item>
+300000
+                    </item>
+                    <item>
+900000
+                    </item>
+                    <item>
+1800000
+                    </item>
+                    <item>
+3600000
+                    </item>
+                    <item>
+7200000
+                    </item>
+                    <item>
+21600000
+                    </item>
+                    <item>
+43200000
+                    </item>
+                    <item>
+86400000
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="all" >Entries
+                </string>
+                <string name="context_menu_share_starred" >Share starred entries
+                </string>
+                <string name="copied_clipboard" >Link copied
+                </string>
+                <string name="original_text" >Show original text
+                </string>
+                <string name="website_or_feed" >(website or feed)
+                </string>
+                <string name="settings_notifications_enabled" >Enable notifications
+                </string>
+                <string name="green" >Green
+                </string>
+                <string name="filter_apply_to_title" >Apply to title
+                </string>
+                <string name="to_group_above" >Above the group
+                </string>
+                <string name="feed_search_by_topic" >Generate feed by topic (via Faroo)
+                </string>
+                <string name="context_menu_edit" >Edit
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 day
+                    </item>
+                    <item>
+2 days
+                    </item>
+                    <item>
+4 days
+                    </item>
+                    <item>
+1 week
+                    </item>
+                    <item>
+2 weeks
+                    </item>
+                    <item>
+1 month
+                    </item>
+                    <item>
+2 months
+                    </item>
+                    <item>
+3 months
+                    </item>
+                    <item>
+Forever
+                    </item>
+                </string-array>
+
+                <string name="to_group_message" >You can either put this feed into or above this group. What do
+        you want to do?
+                </string>
+                <string name="settings_widget_background" >Background
+                </string>
+                <string name="settings_refresh_interval_description" >Interval between two automated refreshes
+                </string>
+                <string name="tab_feed_title" >Feed
+                </string>
+                <string name="settings_notifications_vibrate" >Vibrate
+                </string>
+                <string name="settings_visible_feeds" >Visible feeds
+                </string>
+                <string name="error_feed_process" >The feed can not be processed.
+                </string>
+                <string name="menu_export" >Export to OPML
+                </string>
+                <string name="no_feeds" >No feeds
+                </string>
+                <string name="settings_category_network" >Network
+                </string>
+                <string name="settings_category_content_presentation" >Content presentation
+                </string>
+                <string name="settings_keep_time_description" >The entries that are older than the given date
+        will be deleted
+                </string>
+                <string name="see_enclosure" >See enclosure
+                </string>
+                <string name="error_feed_error" >The feed address could not accessed.
+                </string>
+                <string name="back_again_to_quit" >Press back once more to exit
+                </string>
+                <string name="menu_full_screen" >Full screen
+                </string>
+                <string name="error" >Error
+                </string>
+                <string name="drawer_open" >Open navigation drawer
+                </string>
+                <string name="settings_disable_pictures" >Disable pictures
+                </string>
+                <string name="network_error" >The network is not set up
+                </string>
+                <string name="settings_refresh_wifi_only_description" >Automatic refresh will be done if when the
+        wifi is enabled
+                </string>
+                <string name="message_exported_to" >Exported into %s.
+                </string>
+                <string name="feed_search_by_web_search" >Find feed by key words
+                </string>
+                <string name="to_group_title" >Feed move action
+                </string>
+                <string name="settings_refresh_on_open_description" >Refreshes all feeds after opening the
+        application
+                </string>
+                <string name="optional" >(optional)
+                </string>
+                <string name="loading" >Loading…
+                </string>
+                <string name="filter_is_regex" >is a regular expression
+                </string>
+                <string name="settings_proxy_enabled" >Enabled
+                </string>
+                <string name="feed_url" >URL address
+                </string>
+                <string name="to_group_into" >Into the group
+                </string>
+                <string name="transparency" >Transparency
+                </string>
+                <string name="settings_lighttheme" >Light theme
+                </string>
+                <string name="menu_add_feed" >Add feed
+                </string>
+                <string name="error_feed_url_exists" >The address already exists.
+                </string>
+                <string name="settings_category_refresh" >Automated refresh
+                </string>
+                <string name="select_file" >Select file (SD-root)
+                </string>
+                <string name="settings_notifications_vibrate_description" >Enable the vibration on new entries
+                </string>
+                <string name="settings_keep_time" >Time that the entries will be kept
+                </string>
+                <string name="filter_edit_title" >Edit filter
+                </string>
+                <string name="feeds" >Feeds
+                </string>
+                <string name="context_menu_hide_read" >Hide read entries
+                </string>
+                <string name="filter_add_title" >Add filter
+                </string>
+                <string name="error_feed_import" >The selected file could not be imported.
+                </string>
+                <string name="menu_unstar" >Unstar
+                </string>
+                <string name="no_result" >No result
+                </string>
+                <string name="colon" >:\u00A0
+                </string>
+                <string name="see_link" >See in browser
+                </string>
+                <string name="settings_refresh_interval" >Refresh interval
+                </string>
+                <string name="question_delete_filter" >Do you really want to delete this filter?
+                </string>
+                <string name="favorites" >Starred
+                </string>
+                <string name="settings_refresh_enabled_description" >Enable the automatic refresh of feeds
+                </string>
+                <string name="settings_proxy_type" >Type
+                </string>
+                <string name="settings_proxy_port" >Port
+                </string>
+                <string name="no_filters" >No filters
+                </string>
+                <string name="menu_star" >Star
+                </string>
+                <string name="menu_all_read" >Mark all as read
+                </string>
+                <string name="settings_refresh_enabled" >Enable automatic refresh
+                </string>
+                <string name="never" >never
+                </string>
+                <string name="add_group_title" >Select group name
+                </string>
+                <string name="no_entries" >No entries
+                </string>
+                <string name="feed_search_by_youtube" >Find feed by Youtube channel name
+                </string>
+                <string name="feed_search" >Feed search
+                </string>
+                <string name="get_full_text" >Retrieve the full text
+                </string>
+                <string name="cant_open_link" >No application found for this link
+                </string>
+                <string name="menu_share" >Share
+                </string>
+                <string name="filter_delete_title" >Delete filter
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Standard
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="all_feeds" >All feeds (incl. future)
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Use Proxy only for wifi
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+                <string name="context_menu_delete" >Delete
+                </string>
+                <string name="error_feed_export" >The export has failed. Make sure you have a writable SD-card
+        mounted.
+                </string>
+                <string name="settings_notifications_ringtone" >Ringtone
+                </string>
+                <string name="settings_fetch_pictures_description" >Download all pictures and store them
+        locally
+                </string>
+                <string name="menu_mark_as_unread" >Mark as unread
+                </string>
+                <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="settings_refresh_on_open" >Refresh feeds on open
+                </string>
+                <string name="settings_widget_background_description" >Color and transparency of the widget
+        background
+                </string>
+                <string name="settings_disable_pictures_description" >Do not show and load any pictures
+                </string>
+                <string name="menu_copy_clipboard" >Copy link
+                </string>
+                <string name="filter_apply_to_content" >Apply to content
+                </string>
+                <string name="settings_refresh_wifi_only" >Refresh only with Wifi
+                </string>
+                <string name="settings_font_size_description" >Text size for entries content display
+                </string>
+                <string name="settings_fetch_pictures" >Download pictures
+                </string>
+                <string name="settings_font_size" >Text size
+                </string>
+                <string name="menu_import" >Import from OPML
+                </string>
+                <string name="feed_filters" >EXCLUSION FILTERS
+                </string>
+                <string name="question_delete_feed" >Do you really want to delete this feed?
+                </string>
+                <string name="feed_title" >TITLE
+                </string>
+                <string name="settings_notifications_enabled_description" >Enable notifications in case of new
+        entries
+                </string>
+                <string name="update" >Update
+                </string>
+                <string name="blue" >Blue
+                </string>
+                <string name="settings_screen_proxy" >Proxy
+                </string>
+                <string name="edit_group_title" >Edit group name
+                </string>
+                <string name="error_external_storage_not_available" >The external storage (e.g. SD-card) is not
+        available.
+                </string>
+                <string name="tab_filters_title" >Filters
+                </string>
+                <string name="settings_category_notifications" >Notifications
+                </string>
+                <string name="settings_notifications_ringtone_description" >Select a ringtone that will be played
+        on new entries
+                </string>
+                <string name="share_favorites_title" >FeedEx: starred entries
+                </string>
+                <string name="settings_proxy_host" >Host
+                </string>
+                <string name="question_delete_group" >Do you really want to delete this group and all of its
+        feeds?
+                </string>
+                <string name="menu_refresh" >Refresh
+                </string>
+                <string name="menu_add_group" >Add group
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 minute
+                    </item>
+                    <item>
+5 minutes
+                    </item>
+                    <item>
+15 minutes
+                    </item>
+                    <item>
+30 minutes
+                    </item>
+                    <item>
+1 hour
+                    </item>
+                    <item>
+2 hours
+                    </item>
+                    <item>
+6 hours
+                    </item>
+                    <item>
+12 hours
+                    </item>
+                    <item>
+1 day
+                    </item>
+                </string-array>
+
+                <string name="context_menu_show_read" >Show read entries
+                </string>
+                <string name="settings_lighttheme_description" >Use the light theme
+                </string>
+                <string name="edit_feed_title" >Edit feed
+                </string>
+                <string name="new_feed_title" >New feed
+                </string>
+                <string name="settings_proxy_wifi_only" >Wifi only
+                </string>
+                <string name="new_entries" >new entries
+                </string>
+                <string name="red" >Red
+                </string>
+                <string name="feedex_feeds" >FeedEx feeds
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-ca/strings.xml"
+                qualifiers="ca" >
+                <string name="settings_visible_feeds" >Canals visibles
+                </string>
+                <string name="filter_delete_title" >Eliminació filtres
+                </string>
+                <string name="menu_share" >Comparteix
+                </string>
+                <string name="cant_open_link" >No s\'ha trobat una aplicació\'per aquest enllaç.
+                </string>
+                <string name="settings_font_size_description" >Sel·lecciona la mida del text de les entrades.
+                </string>
+                <string name="error" >Error
+                </string>
+                <string name="context_menu_edit" >Edita
+                </string>
+                <string name="blue" >Blau
+                </string>
+                <string name="error_feed_url_exists" >Ja existeix aquesta adreça.
+                </string>
+                <string name="colon" >:u00A0
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Utilitza la pasarel·la només en Wi-Fi.
+                </string>
+                <string name="feed_search" >Cerca canals
+                </string>
+                <string name="settings_fetch_pictures" >Descarrega imatges
+                </string>
+                <string name="context_menu_delete" >Elimina
+                </string>
+                <string name="never" >mai
+                </string>
+                <string name="settings_proxy_port" >Port
+                </string>
+                <string name="settings_refresh_interval_description" >Defineix el temps que transcorre entre dues
+        actualitzacions automàtiques.
+                </string>
+                <string name="settings_category_refresh" >Actualització automàtica
+                </string>
+                <string name="to_group_into" >Afegeix al grup
+                </string>
+                <string name="see_enclosure" >Mostra el fitxer adjunt
+                </string>
+                <string name="green" >Verd
+                </string>
+                <string name="filter_apply_to_content" >Aplica al contingut
+                </string>
+                <string name="filter_add_title" >Addició de filtres
+                </string>
+                <string name="settings_category_network" >Xarxa
+                </string>
+                <string name="menu_star" >Marca
+                </string>
+                <string name="filter_is_regex" >és una expresió regular
+                </string>
+                <string name="settings_notifications_ringtone" >So
+                </string>
+                <string name="settings_refresh_wifi_only" >Actualitza els canals només en Wi-Fi
+                </string>
+                <string name="feed_search_by_youtube" >Troba un canal per canal de YouTube
+                </string>
+                <string name="new_feed_title" >Nou canal
+                </string>
+                <string name="feed_filters" >FILTRES D\'EXCLUSIÓ
+                </string>
+                <string name="feed_url" >Adreça URL
+                </string>
+                <string name="update" >Actualitza
+                </string>
+                <string name="menu_all_read" >Marca\'ls tots com a llegits
+                </string>
+                <string name="menu_add_feed" >Afegir un canal
+                </string>
+                <string name="settings_refresh_on_open_description" >Descarregarà nous continguts dels canals a
+        l\'inici de l\'aplicació.
+                </string>
+                <string name="website_or_feed" >(lloc web o canal)
+                </string>
+                <string name="settings_proxy_type" >Tipus
+                </string>
+                <string name="settings_category_notifications" >Notificacions
+                </string>
+                <string name="error_feed_import" >No s\'ha pogut importar el fitxer sel·leccionat.
+                </string>
+                <string name="loading" >S\'està carregant.
+                </string>
+                <string name="filter_edit_title" >Edició de filtres
+                </string>
+                <string name="settings_lighttheme_description" >Utilitza el tema clar
+                </string>
+                <string name="question_delete_filter" >Voleu eliminar aquest filtre?
+                </string>
+                <string name="error_external_storage_not_available" >The external storage (e.g. SD-card) is not
+        available.
+                </string>
+                <string name="menu_mark_as_unread" >Marca com a no llegit
+                </string>
+                <string name="favorites" >Destacats
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 dia
+                    </item>
+                    <item>
+2 dies
+                    </item>
+                    <item>
+4 dies
+                    </item>
+                    <item>
+1 setmana
+                    </item>
+                    <item>
+2 setmanes
+                    </item>
+                    <item>
+1 mes
+                    </item>
+                    <item>
+2 mesos
+                    </item>
+                    <item>
+3 mesos
+                    </item>
+                    <item>
+Infinit
+                    </item>
+                </string-array>
+
+                <string name="settings_notifications_enabled_description" >Notifica les noves entrades.
+                </string>
+                <string name="transparency" >Transparència
+                </string>
+                <string name="all_feeds" >Tots els canals (futurs inclosos)
+                </string>
+                <string name="context_menu_hide_read" >Amaga entrades llegides
+                </string>
+                <string name="menu_export" >Exporta a OPML
+                </string>
+                <string name="menu_import" >Importa des de OPML
+                </string>
+                <string name="context_menu_show_read" >Mostra entrades llegides
+                </string>
+                <string name="feedex_feeds" >Canals de FeedEx
+                </string>
+                <string name="menu_settings" >Paràmetres
+                </string>
+                <string name="settings_screen_proxy" >Proxy
+                </string>
+                <string name="copied_clipboard" >S\'ha copiat l\'enllaç
+                </string>
+                <string name="network_error" >No hi ha connectivitat
+                </string>
+                <string name="no_feeds" >No hi ha canals
+                </string>
+                <string name="settings_category_content_presentation" >Presentació del contingut
+                </string>
+                <string name="settings_refresh_on_open" >Actualitza els canals a l\'inici
+                </string>
+                <string name="all" >Entrades
+                </string>
+                <string name="settings_refresh_enabled" >Activa les actualitzacions automàtiques
+                </string>
+                <string name="settings_notifications_vibrate_description" >Vibra el terminal al mostrar la
+        notificació.
+                </string>
+                <string name="question_delete_group" >Voleu eliminar aquest grup i els seus canals?
+                </string>
+                <string name="original_text" >Mostra el text original
+                </string>
+                <string name="context_menu_share_starred" >Comparteix entrades destacades
+                </string>
+                <string name="optional" >(opcional)
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 minut
+                    </item>
+                    <item>
+5 minuts
+                    </item>
+                    <item>
+15 minuts
+                    </item>
+                    <item>
+30 minuts
+                    </item>
+                    <item>
+1 hora
+                    </item>
+                    <item>
+2 hores
+                    </item>
+                    <item>
+6 hores
+                    </item>
+                    <item>
+12 hores
+                    </item>
+                    <item>
+1 dia
+                    </item>
+                </string-array>
+
+                <string name="error_feed_export" >No s\'ha pogut exportar el fitxer. Comproveu la memòria
+        externa.
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Normal
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="new_entries" >noves entrades
+                </string>
+                <string name="question_delete_feed" >Voleu eliminar aquest canal?
+                </string>
+                <string name="settings_widget_background" >Fons
+                </string>
+                <string name="to_group_message" >Podeu posar el canal dins del grup o bé a sobre d\'aquest. Què
+        voleu fer?
+                </string>
+                <string name="feed_search_by_topic" >Genera canals per tema (via Faroo)
+                </string>
+                <string name="select_file" >Esculliu un fitxer (arrel de la targeta SD)
+                </string>
+                <string name="no_entries" >No hi ha entrades
+                </string>
+                <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="menu_copy_clipboard" >Copia l\'enllaç
+                </string>
+                <string name="drawer_open" >Open navigation drawer
+                </string>
+                <string name="share_favorites_title" >FeedEx: entrades destacades
+                </string>
+                <string name="settings_lighttheme" >Tema clar
+                </string>
+                <string name="no_result" >No hi ha resultats
+                </string>
+                <string name="edit_feed_title" >Edita el canal
+                </string>
+                <string name="settings_keep_time" >Temps de conservació d\'entrades
+                </string>
+                <string name="menu_unstar" >Treu la marca
+                </string>
+                <string name="settings_disable_pictures" >Desactiva imatges
+                </string>
+                <string name="menu_refresh" >Refresca
+                </string>
+                <string name="settings_notifications_vibrate" >Vibra
+                </string>
+                <string name="see_link" >Mostra al navegador
+                </string>
+                <string name="tab_filters_title" >Filtres
+                </string>
+                <string name="to_group_title" >Relocalització del canal
+                </string>
+                <string name="menu_full_screen" >Pantalla completa
+                </string>
+                <string name="error_feed_process" >No s\'ha pogut processar el canal.
+                </string>
+                <string name="settings_keep_time_description" >Les entrades més antigues que aquest paràmetre
+        seran eliminades.
+                </string>
+                <string name="settings_refresh_wifi_only_description" >Només es descarregaran nous continguts
+        dins d\'una connexió Wi-Fi.
+                </string>
+                <string name="red" >Vermell
+                </string>
+                <string name="settings_notifications_ringtone_description" >Sel·lecciona el so que es reproduirà
+        al mostrar la notificació.
+                </string>
+                <string name="settings_font_size" >Mida del text
+                </string>
+                <string name="feed_title" >TÍTOL
+                </string>
+                <string name="message_exported_to" >S\'ha exportat a %s.
+                </string>
+                <string name="settings_refresh_interval" >Interval entre actualitzacions
+                </string>
+                <string name="error_feed_error" >No es pot accedir al canal.
+                </string>
+                <string name="add_group_title" >Sel·lecció del nom del grup
+                </string>
+                <string name="settings_proxy_enabled" >Activat
+                </string>
+                <string name="settings_fetch_pictures_description" >Descarrega les imatges i les emmagatzema
+        localment.
+                </string>
+                <string name="filter_apply_to_title" >Aplica al títol
+                </string>
+                <string name="settings_proxy_wifi_only" >Només en Wi-Fi
+                </string>
+                <string name="back_again_to_quit" >Premeu una vegada més per sortir
+                </string>
+                <string name="settings_refresh_enabled_description" >Descarrega el contingut dels canals
+        automàticament.
+                </string>
+                <string name="feed_search_by_web_search" >Cerca canals per paraula clau
+                </string>
+                <string name="tab_feed_title" >Canal
+                </string>
+                <string name="to_group_above" >Situa a sobre del grup
+                </string>
+                <string name="get_full_text" >Descarrega el text complet
+                </string>
+                <string name="feeds" >Canals
+                </string>
+                <string name="settings_notifications_enabled" >Activa les notificacions
+                </string>
+                <string name="settings_disable_pictures_description" >No es carregaran ni mostraran imatges.
+                </string>
+                <string name="settings_proxy_host" >Màquina
+                </string>
+                <string name="settings_widget_background_description" >Color i transparència del fons del giny.
+                </string>
+                <string name="menu_add_group" >Afegir un grup
+                </string>
+                <string name="no_filters" >No hi ha filtres
+                </string>
+                <string name="edit_group_title" >Edició del nom del grup
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-de/strings.xml"
+                qualifiers="de" >
+                <string name="website_or_feed" >(Website oder Feed)
+                </string>
+                <string name="settings_notifications_vibrate" >Vibrieren
+                </string>
+                <string name="settings_screen_proxy" >Proxy
+                </string>
+                <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="cant_open_link" >Keine Anwendung für diesen Link gefunden
+                </string>
+                <string name="colon" >:\u00A0
+                </string>
+                <string name="message_exported_to" >Nach %s exportiert.
+                </string>
+                <string name="settings_refresh_wifi_only_description" >Die automatische Aktualisierung wird nur
+        bei aktiver WLAN-Verbindung durchgeführt
+                </string>
+                <string name="context_menu_hide_read" >Gelesene Einträge verstecken
+                </string>
+                <string name="edit_group_title" >Gruppennamen bearbeiten
+                </string>
+                <string name="feed_url" >URL-Adresse
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Proxy nur für WLAN nutzen
+                </string>
+                <string name="menu_settings" >Einstellungen
+                </string>
+                <string name="all" >Einträge
+                </string>
+                <string name="original_text" >Ursprünglichen Text anzeigen
+                </string>
+                <string name="settings_visible_feeds" >Sichtbare Feeds
+                </string>
+                <string name="question_delete_feed" >Willst du diesen Feed wirklich löschen?
+                </string>
+                <string name="no_filters" >Keine Filter
+                </string>
+                <string name="settings_refresh_enabled" >Automatisches Aktualisieren
+                </string>
+                <string name="feed_title" >TITEL
+                </string>
+                <string name="menu_share" >Teilen
+                </string>
+                <string name="settings_disable_pictures" >Bilder deaktivieren
+                </string>
+                <string name="no_feeds" >Keine Feeds
+                </string>
+                <string name="settings_lighttheme" >Helles Thema
+                </string>
+                <string name="settings_font_size" >Textgröße
+                </string>
+                <string name="settings_category_refresh" >Automatisches Aktualisieren
+                </string>
+                <string name="error_external_storage_not_available" >Der externe Speicher (z.B. eine SD-Karte)
+        ist nicht verfügbar.
+                </string>
+                <string name="question_delete_filter" >Willst du diesen Filter wirklich löschen?
+                </string>
+                <string name="add_group_title" >Gruppenname wählen
+                </string>
+                <string name="settings_notifications_enabled_description" >Aktiviert Benachrichtigungen bei neuen
+        Einträgen
+                </string>
+                <string name="error_feed_import" >Die ausgewählte Datei konnte nicht importiert werden.
+                </string>
+                <string name="error_feed_url_exists" >Diese Adresse existiert schon.
+                </string>
+                <string name="context_menu_share_starred" >Favorisierte Einträge teilen
+                </string>
+                <string name="new_feed_title" >Neuer Feed
+                </string>
+                <string name="context_menu_edit" >Bearbeiten
+                </string>
+                <string name="drawer_open" >Open navigation drawer
+                </string>
+                <string name="settings_notifications_enabled" >Benachrichtigungen aktivieren
+                </string>
+                <string name="settings_refresh_wifi_only" >Nur über WLAN aktualisieren
+                </string>
+                <string name="settings_fetch_pictures" >Bilder herunterladen
+                </string>
+                <string name="settings_widget_background" >Hintergrund
+                </string>
+                <string name="settings_refresh_on_open_description" >Aktualisiert alle Feeds beim Öffnen der
+        Anwendung
+                </string>
+                <string name="settings_refresh_interval_description" >Intervall zwischen zwei automatischen
+        Aktualisierungen
+                </string>
+                <string name="new_entries" >neue Einträge
+                </string>
+                <string name="settings_notifications_vibrate_description" >Aktiviert Vibration bei neuen
+        Einträgen
+                </string>
+                <string name="menu_mark_as_unread" >Als ungelesen markieren
+                </string>
+                <string name="see_enclosure" >Anhang ansehen
+                </string>
+                <string name="menu_add_feed" >Feed hinzufügen
+                </string>
+                <string name="to_group_message" >Du kannst den Feed entweder in oder über diese Gruppe
+        positionieren. Was willst du tun?
+                </string>
+                <string name="settings_disable_pictures_description" >Keine Bilder zeigen oder laden
+                </string>
+                <string name="filter_is_regex" >ist ein regulärer Ausdruck
+                </string>
+                <string name="error_feed_export" >Der Export ist fehlgeschlagen. Stelle sicher, dass du eine
+        beschreibbare SD-Karte eingelegt hast.
+                </string>
+                <string name="select_file" >Datei auswählen(SD-root)
+                </string>
+                <string name="feed_search_by_web_search" >Finde einen Feed anhand von Stichpunkten
+                </string>
+                <string name="filter_edit_title" >Filter bearbeiten
+                </string>
+                <string name="settings_proxy_host" >Host
+                </string>
+                <string name="context_menu_delete" >Löschen
+                </string>
+                <string name="loading" >Laden…
+                </string>
+                <string name="blue" >Blau
+                </string>
+                <string name="green" >Grün
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 Minute
+                    </item>
+                    <item>
+5 Minuten
+                    </item>
+                    <item>
+15 Minuten
+                    </item>
+                    <item>
+30 Minuten
+                    </item>
+                    <item>
+1 Stunde
+                    </item>
+                    <item>
+2 Stunden
+                    </item>
+                    <item>
+6 Stunden
+                    </item>
+                    <item>
+12 Stunden
+                    </item>
+                    <item>
+1 Tag
+                    </item>
+                </string-array>
+
+                <string name="settings_notifications_ringtone_description" >Wähle einen Klingelton, der bei neuen
+        Einträgen abgespielt wird
+                </string>
+                <string name="settings_keep_time" >Zeit nach der Einträge gelöscht werden
+                </string>
+                <string name="settings_lighttheme_description" >Helles Thema nutzen
+                </string>
+                <string name="settings_proxy_wifi_only" >Nur WLAN
+                </string>
+                <string name="settings_refresh_on_open" >Feeds beim Öffnen aktualisieren
+                </string>
+                <string name="to_group_title" >Feed-Verschiebung
+                </string>
+                <string name="menu_refresh" >Aktualisieren
+                </string>
+                <string name="question_delete_group" >Willst du diese Gruppe mit allen Feeds wirklich löschen?
+                </string>
+                <string name="transparency" >Transparenz
+                </string>
+                <string name="feed_filters" >AUSSCHLUSS-FILTER
+                </string>
+                <string name="menu_star" >Favorisieren
+                </string>
+                <string name="feed_search_by_youtube" >Finde einen Feed anhand des Youtube-Channel-Namens
+                </string>
+                <string name="get_full_text" >Vollen Text abrufen
+                </string>
+                <string name="settings_refresh_enabled_description" >Aktiviert das automatische Aktualisieren
+        aller Feeds
+                </string>
+                <string name="menu_export" >Nach OPML exportieren
+                </string>
+                <string name="tab_feed_title" >Feed
+                </string>
+                <string name="update" >aktualisiert
+                </string>
+                <string name="edit_feed_title" >Feed bearbeiten
+                </string>
+                <string name="to_group_into" >In die Gruppe
+                </string>
+                <string name="filter_delete_title" >Filter entfernen
+                </string>
+                <string name="settings_refresh_interval" >Aktualisierungsintervall
+                </string>
+                <string name="network_error" >Kein Internet
+                </string>
+                <string name="menu_import" >Aus OPML importieren
+                </string>
+                <string name="settings_fetch_pictures_description" >Alle Bilder herunterladen und lokal
+        speichern
+                </string>
+                <string name="no_result" >Kein Ergebnis
+                </string>
+                <string name="context_menu_show_read" >Gelesene Einträge anzeigen
+                </string>
+                <string name="menu_all_read" >Alle als gelesen markieren
+                </string>
+                <string name="settings_widget_background_description" >Farbe und Transparenz des
+        Widget-Hintergrundes
+                </string>
+                <string name="favorites" >Favorisiert
+                </string>
+                <string name="never" >nie
+                </string>
+                <string name="feedex_feeds" >FeedEx-Feeds
+                </string>
+                <string name="settings_category_content_presentation" >Anzeige der Inhalte
+                </string>
+                <string name="tab_filters_title" >Filters
+                </string>
+                <string name="no_entries" >Keine Einträge
+                </string>
+                <string name="settings_font_size_description" >Textgröße für Inhalte
+                </string>
+                <string name="filter_apply_to_title" >Auf den Titel anwenden
+                </string>
+                <string name="settings_proxy_enabled" >aktiviert
+                </string>
+                <string name="feed_search" >Feed-Suche
+                </string>
+                <string name="back_again_to_quit" >Zum Beenden Zurück-Taste noch einmal drücken
+                </string>
+                <string name="settings_proxy_type" >Typ
+                </string>
+                <string name="error" >Fehler
+                </string>
+                <string name="menu_full_screen" >Vollbild
+                </string>
+                <string name="see_link" >Im Browser ansehen
+                </string>
+                <string name="settings_category_notifications" >Benachrichtigungen
+                </string>
+                <string name="to_group_above" >Über die Gruppe
+                </string>
+                <string name="error_feed_error" >Zugriff auf Feed-Adresse nicht möglich.
+                </string>
+                <string name="copied_clipboard" >Link kopiert
+                </string>
+                <string name="error_feed_process" >Der Feed kann nicht bearbeitet werden.
+                </string>
+                <string name="menu_copy_clipboard" >Link kopieren
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Standard
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="filter_add_title" >Filter hinzufügen
+                </string>
+                <string name="feed_search_by_topic" >Erstelle einen Feed nach Themen (via Faroo)
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 Tag
+                    </item>
+                    <item>
+2 Tage
+                    </item>
+                    <item>
+4 Tage
+                    </item>
+                    <item>
+1 Woche
+                    </item>
+                    <item>
+2 Wochen
+                    </item>
+                    <item>
+1 Monat
+                    </item>
+                    <item>
+2 Monate
+                    </item>
+                    <item>
+3 Monate
+                    </item>
+                    <item>
+Für immer
+                    </item>
+                </string-array>
+
+                <string name="red" >Rot
+                </string>
+                <string name="share_favorites_title" >FeedEx: favorisierte Einträge
+                </string>
+                <string name="settings_proxy_port" >Port
+                </string>
+                <string name="all_feeds" >Alle Feeds (auch zukünftige)
+                </string>
+                <string name="filter_apply_to_content" >Auf den Inhalt anwenden
+                </string>
+                <string name="optional" >(optional)
+                </string>
+                <string name="feeds" >Feeds
+                </string>
+                <string name="settings_keep_time_description" >Einträge, die älter sind, als ausgewählt, werden
+        gelöscht
+                </string>
+                <string name="settings_notifications_ringtone" >Klingelton
+                </string>
+                <string name="settings_category_network" >Netzwerk
+                </string>
+                <string name="menu_unstar" >Entfavorisieren
+                </string>
+                <string name="menu_add_group" >Gruppe erstellen
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-es/strings.xml"
+                qualifiers="es" >
+                <string name="see_enclosure" >Ver el adjunto
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Utiliza el proxy solo mientras se esté
+        conectado a una red Wi-Fi.
+                </string>
+                <string name="menu_unstar" >No destacar
+                </string>
+                <string name="edit_group_title" >Editar nombre de grupo
+                </string>
+                <string name="feed_title" >TÍTULO
+                </string>
+                <string name="settings_refresh_interval" >Intervalo entre actualizaciones
+                </string>
+                <string name="to_group_message" >Puede mover la fuente al grupo o encima del grupo. ¿Qué desea
+        hacer?
+                </string>
+                <string name="network_error" >No se ha configurado la red
+                </string>
+                <string name="menu_add_group" >Añadir grupo
+                </string>
+                <string name="colon" >:\u00A0
+                </string>
+                <string name="settings_proxy_wifi_only" >Solo en Wi-Fi
+                </string>
+                <string name="feed_search_by_topic" >Buscar fuentes según género (con Faroo)
+                </string>
+                <string name="to_group_into" >Al grupo
+                </string>
+                <string name="settings_widget_background" >Fondo
+                </string>
+                <string name="settings_lighttheme_description" >Usar el tema claro
+                </string>
+                <string name="settings_disable_pictures" >Deshabilitar las imágenes
+                </string>
+                <string name="feed_search_by_youtube" >Buscar fuentes según canal de YouTube
+                </string>
+                <string name="feed_url" >Dirección URL
+                </string>
+                <string name="error_feed_export" >No se ha podido exportar las fuentes. Compruebe los permisos en
+        la tarjeta SD.
+                </string>
+                <string name="settings_font_size_description" >Selecciona el tamaño del texto de las entradas.
+                </string>
+                <string name="error_external_storage_not_available" >El almacenaje externo no está disponible.
+                </string>
+                <string name="feed_filters" >FILTROS DE EXCLUSIÓN
+                </string>
+                <string name="menu_settings" >Configuración
+                </string>
+                <string name="new_feed_title" >Nueva fuente
+                </string>
+                <string name="settings_font_size" >Tamaño del texto
+                </string>
+                <string name="feedex_feeds" >Fuentes de FeedEx
+                </string>
+                <string name="settings_widget_background_description" >Color i transparencia del fondo del
+        widget.
+                </string>
+                <string name="get_full_text" >Descargar el texto completo
+                </string>
+                <string name="add_group_title" >Añadir nombre de grupo
+                </string>
+                <string name="message_exported_to" >Exportar a %s
+                </string>
+                <string name="settings_proxy_host" >Máquina
+                </string>
+                <string name="settings_refresh_on_open" >Actualizar las fuentes al inicio
+                </string>
+                <string name="never" >nunca
+                </string>
+                <string name="settings_category_network" >Red
+                </string>
+                <string name="optional" >(opcional)
+                </string>
+                <string name="no_entries" >No hay entradas
+                </string>
+                <string name="settings_screen_proxy" >Proxy
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Normal
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="settings_category_refresh" >Actualización automáticas
+                </string>
+                <string name="filter_edit_title" >Editar filtro
+                </string>
+                <string name="settings_keep_time_description" >Las entradas que superen el timepo de retención
+        serán eliminadas.
+                </string>
+                <string name="green" >Verde
+                </string>
+                <string name="menu_add_feed" >fuente
+                </string>
+                <string name="back_again_to_quit" >Presione atrás une vez más para salir
+                </string>
+                <string name="cant_open_link" >No se ha encontrado una aplicación para este enlace.
+                </string>
+                <string name="no_feeds" >No hay fuentes
+                </string>
+                <string name="question_delete_filter" >¿Seguor que quiere eliminar este filtro?
+                </string>
+                <string name="settings_notifications_vibrate" >Vibración
+                </string>
+                <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="copied_clipboard" >Enlace copiado
+                </string>
+                <string name="settings_refresh_wifi_only" >Actualizar solo en Wi-Fi.
+                </string>
+                <string name="error_feed_error" >No hay conectividad a la dirección de la fuente.
+                </string>
+                <string name="menu_mark_as_unread" >Marcar como no leído
+                </string>
+                <string name="settings_refresh_interval_description" >Define el tiempo que transcurre entre dos
+        actualizaciones automáticas.
+                </string>
+                <string name="filter_is_regex" >es una expresión regular
+                </string>
+                <string name="error_feed_import" >No se ha podido importar el archivo seleccionado.
+                </string>
+                <string name="menu_share" >Compartir
+                </string>
+                <string name="share_favorites_title" >FeedEx: Entradas destacadas
+                </string>
+                <string name="error_feed_process" >No se ha podido procesar la fuente.
+                </string>
+                <string name="loading" >Cargando…
+                </string>
+                <string name="original_text" >Mostrar el texto original
+                </string>
+                <string name="settings_refresh_wifi_only_description" >Solo se actualizarán las entradas cuando
+        se esté conectado a una red Wi-Fi.
+                </string>
+                <string name="settings_category_notifications" >Notificaciones
+                </string>
+                <string name="menu_import" >Importar desde OPML
+                </string>
+                <string name="edit_feed_title" >Modificar fuente
+                </string>
+                <string name="all_feeds" >Todas las fuentes (incl. futuras)
+                </string>
+                <string name="website_or_feed" >(página web o fuente)
+                </string>
+                <string name="drawer_open" >Open navigation drawer
+                </string>
+                <string name="feed_search_by_web_search" >Buscar fuentes por palabra clave
+                </string>
+                <string name="menu_all_read" >Marcar todo como leído
+                </string>
+                <string name="settings_proxy_port" >Puerto
+                </string>
+                <string name="menu_copy_clipboard" >Copiar enlace
+                </string>
+                <string name="tab_feed_title" >Fuente
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 minuto
+                    </item>
+                    <item>
+5 minutos
+                    </item>
+                    <item>
+15 minutos
+                    </item>
+                    <item>
+30 minutos
+                    </item>
+                    <item>
+1 hora
+                    </item>
+                    <item>
+2 horas
+                    </item>
+                    <item>
+6 horas
+                    </item>
+                    <item>
+12 horas
+                    </item>
+                    <item>
+1 día
+                    </item>
+                </string-array>
+
+                <string name="context_menu_hide_read" >Ocultar entradas leídas
+                </string>
+                <string name="settings_notifications_enabled" >Habilitar notificaciones
+                </string>
+                <string name="see_link" >Ver en el navegador
+                </string>
+                <string name="context_menu_share_starred" >Compartir entradas seleccionadas
+                </string>
+                <string name="settings_notifications_ringtone_description" >Selecciona el tono que anunciará las
+        nuevas entradas.
+                </string>
+                <string name="settings_keep_time" >Tiempo de retención de las entradas
+                </string>
+                <string name="feeds" >Fuentes
+                </string>
+                <string name="red" >Rojo
+                </string>
+                <string name="no_result" >Sin resultados
+                </string>
+                <string name="tab_filters_title" >Filtros
+                </string>
+                <string name="favorites" >Destacadas
+                </string>
+                <string name="error" >Error
+                </string>
+                <string name="menu_export" >Exportar a OPML
+                </string>
+                <string name="settings_proxy_enabled" >Habilitado
+                </string>
+                <string name="filter_delete_title" >Eliminar filtro
+                </string>
+                <string name="menu_star" >Destaca
+                </string>
+                <string name="settings_category_content_presentation" >Modo de presentación
+                </string>
+                <string name="no_filters" >No hay filtros
+                </string>
+                <string name="settings_fetch_pictures" >Descargar imágenes
+                </string>
+                <string name="to_group_above" >Encima del grupo
+                </string>
+                <string name="filter_apply_to_content" >Aplicar al contenido
+                </string>
+                <string name="menu_full_screen" >Pantalla completa
+                </string>
+                <string name="settings_notifications_vibrate_description" >Hará vibrar el terminal al recibir
+        nuevas entradas.
+                </string>
+                <string name="filter_add_title" >Añadir filtro
+                </string>
+                <string name="update" >Actualizar
+                </string>
+                <string name="all" >Entradas
+                </string>
+                <string name="error_feed_url_exists" >Ya existe esta dirección.
+                </string>
+                <string name="settings_visible_feeds" >Visibilidad de las fuentes
+                </string>
+                <string name="settings_fetch_pictures_description" >Descarga las imágenes localmente.
+                </string>
+                <string name="menu_refresh" >Actualizar
+                </string>
+                <string name="settings_proxy_type" >Tipo
+                </string>
+                <string name="new_entries" >entradas nuevas
+                </string>
+                <string name="select_file" >Seleccionar archivo
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 día
+                    </item>
+                    <item>
+2 días
+                    </item>
+                    <item>
+4 días
+                    </item>
+                    <item>
+1 semana
+                    </item>
+                    <item>
+2 semanas
+                    </item>
+                    <item>
+1 mes
+                    </item>
+                    <item>
+2 meses
+                    </item>
+                    <item>
+3 meses
+                    </item>
+                    <item>
+Infinito
+                    </item>
+                </string-array>
+
+                <string name="to_group_title" >Mover la fuente
+                </string>
+                <string name="question_delete_feed" >¿Seguro que quiere eliminar esta fuente?
+                </string>
+                <string name="settings_disable_pictures_description" >No mostrar imágenes
+                </string>
+                <string name="context_menu_edit" >Editar
+                </string>
+                <string name="blue" >Azul
+                </string>
+                <string name="settings_lighttheme" >Tema claro
+                </string>
+                <string name="settings_notifications_enabled_description" >Habilita las notificaciones de nuevas
+        entradas.
+                </string>
+                <string name="feed_search" >Buscar fuentes
+                </string>
+                <string name="settings_refresh_enabled_description" >Activa las actualizaciones automáticas de
+        las fuentes.
+                </string>
+                <string name="question_delete_group" >¿Seguro que quiere eliminar este grupo de fuentes?
+                </string>
+                <string name="settings_notifications_ringtone" >Tono
+                </string>
+                <string name="settings_refresh_enabled" >Habilitar actualizaciones automáticas
+                </string>
+                <string name="filter_apply_to_title" >Aplicar al título
+                </string>
+                <string name="context_menu_show_read" >Mostrar entradas leídas
+                </string>
+                <string name="context_menu_delete" >Eliminar
+                </string>
+                <string name="transparency" >Transparencia
+                </string>
+                <string name="settings_refresh_on_open_description" >Actualiza las fuentes al iniciar la
+        aplicación.
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-fi/strings.xml"
+                qualifiers="fi" >
+                <string name="settings_widget_background" >Tausta
+                </string>
+                <string name="settings_refresh_on_open_description" >Päivitä kaikki syötteet sovelluksen käynnistyessä
+                </string>
+                <string name="network_error" >Ei verkkoyhteyttä
+                </string>
+                <string name="settings_category_refresh" >Automaattinen päivitys
+                </string>
+                <string name="settings_category_notifications" >Ilmoitukset
+                </string>
+                <string name="drawer_close" >Sulje navigointipaneeli
+                </string>
+                <string name="context_menu_share_starred" >Jaa tähdellä merkityt
+                </string>
+                <string name="cant_open_link" >Linkin avaamiseen kykenevää sovellusta ei löydy.
+                </string>
+                <string name="feed_search_by_web_search" >Etsi syötteitä avainsanojen avulla
+                </string>
+                <string name="menu_share" >Jaa
+                </string>
+                <string name="to_group_above" >Ylemmälle tasolle
+                </string>
+                <string name="no_entries" >Ei artikkeleita
+                </string>
+                <string name="menu_add_feed" >Lisää syöte
+                </string>
+                <string name="favorites" >Tähdellä merkityt
+                </string>
+                <string name="filter_apply_to_title" >Sovella otsikkoon
+                </string>
+                <string name="menu_refresh" >Päivitä
+                </string>
+                <string name="see_link" >Avaa selaimessa
+                </string>
+                <string name="settings_proxy_type" >Tyyppi
+                </string>
+                <string name="context_menu_edit" >Muokkaa
+                </string>
+                <string name="error_feed_export" >Vienti epäonnistui. Varmista, että SD-kortille voidaan kirjoittaa.
+                </string>
+                <string name="copied_clipboard" >Linkki kopioitu
+                </string>
+                <string name="menu_import" >Tuo OPML-tiedosto
+                </string>
+                <string name="filter_apply_to_content" >Sovella sisältöön
+                </string>
+                <string name="settings_notifications_enabled_description" >Näytä ilmoitus kun syötteissä on uusia artikkeleita
+                </string>
+                <string name="error_feed_import" >Valittua tiedostoa ei voitu tuoda.
+                </string>
+                <string name="new_feed_title" >Uusi syöte
+                </string>
+                <string name="never" >ei koskaan
+                </string>
+                <string name="add_group_title" >Uusi ryhmä
+                </string>
+                <string name="settings_notifications_vibrate" >Värinä
+                </string>
+                <string name="question_delete_group" >Haluatko poistaa tämän ryhmän ja kaikki siinä olevat syötteet?
+                </string>
+                <string name="select_file" >Valitse tiedosto (SD-juuri)
+                </string>
+                <string name="feed_search" >Etsi syötteitä
+                </string>
+                <string name="menu_add_group" >Lisää ryhmä
+                </string>
+                <string name="menu_full_screen" >Koko ruutu
+                </string>
+                <string name="settings_proxy_port" >Portti
+                </string>
+                <string name="feedex_feeds" >FeedEx-syötteet
+                </string>
+                <string name="settings_refresh_on_open" >Päivitä käynnistettäessä
+                </string>
+                <string name="context_menu_delete" >Poista
+                </string>
+                <string name="error_external_storage_not_available" >Ulkoinen tallenusväline (esim. SD-kortti) ei ole saatavilla.
+                </string>
+                <string name="filter_delete_title" >Poista sääntö
+                </string>
+                <string name="loading" >Lataa…
+                </string>
+                <string name="settings_lighttheme_description" >Käytä vaaleaa teemaa
+                </string>
+                <string name="settings_refresh_interval" >Päivitysväli
+                </string>
+                <string name="green" >Vihreä
+                </string>
+                <string name="drawer_open" >Avaa navigointipaneeli
+                </string>
+                <string name="menu_all_read" >Merkitse kaikki luetuiksi
+                </string>
+                <string name="error_feed_error" >Syötteen verkko-osoitteeseen ei saatu yhteyttä.
+                </string>
+                <string name="menu_export" >Vie OPML-tiedosto
+                </string>
+                <string name="settings_refresh_wifi_only" >Vain wifi-yhteyden kautta
+                </string>
+                <string name="feed_url" >URL-osoite
+                </string>
+                <string name="settings_fetch_pictures" >Lataa kuvat
+                </string>
+                <string name="error" >Virhe
+                </string>
+                <string name="update" >Päivitetty
+                </string>
+                <string name="no_feeds" >Ei syötteitä
+                </string>
+                <string name="tab_feed_title" >Syöte
+                </string>
+                <string name="settings_category_network" >Verkko
+                </string>
+                <string name="error_feed_url_exists" >Osoite on jo olemassa.
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 päivä
+                    </item>
+                    <item>
+2 päivää
+                    </item>
+                    <item>
+4 päivää
+                    </item>
+                    <item>
+1 viikko
+                    </item>
+                    <item>
+2 viikkoa
+                    </item>
+                    <item>
+1 kuukausi
+                    </item>
+                    <item>
+2 kuukautta
+                    </item>
+                    <item>
+3 kuukautta
+                    </item>
+                    <item>
+Ikuisesti
+                    </item>
+                </string-array>
+
+                <string name="feed_search_by_topic" >Generoi syöte aiheen mukaan (FAROO-haun avulla)
+                </string>
+                <string name="share_favorites_title" >FeedEx: tähdellä merkityt
+                </string>
+                <string name="menu_copy_clipboard" >Kopioi linkki
+                </string>
+                <string name="no_result" >Ei tuloksia
+                </string>
+                <string name="question_delete_filter" >Haluatko poistaa tämän säännön?
+                </string>
+                <string name="error_feed_process" >Syötettä ei voitu käsitellä.
+                </string>
+                <string name="feed_search_by_youtube" >Etsi syöte Youtube-kanavan nimen avulla
+                </string>
+                <string name="red" >Punainen
+                </string>
+                <string name="settings_disable_pictures_description" >Älä lataa, älä näytä kuvia
+                </string>
+                <string name="menu_unstar" >Poista tähti
+                </string>
+                <string name="settings_disable_pictures" >Kuvat pois päältä
+                </string>
+                <string name="filter_add_title" >Lisää sääntö
+                </string>
+                <string name="menu_star" >Merkitse tähdellä
+                </string>
+                <string name="context_menu_hide_read" >Piilota luetut
+                </string>
+                <string name="edit_feed_title" >Muokkaa syötettä
+                </string>
+                <string name="original_text" >Näytä alkuperäinen teksti
+                </string>
+                <string name="optional" >(ei välttämätön)
+                </string>
+                <string name="feed_title" >OTSIKKO
+                </string>
+                <string name="menu_mark_as_unread" >Merkitse lukemattomaksi
+                </string>
+                <string name="get_full_text" >Hae koko teksti
+                </string>
+                <string name="colon" >:\u00A0
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 minuutti
+                    </item>
+                    <item>
+5 minuuttia
+                    </item>
+                    <item>
+15 minuuttia
+                    </item>
+                    <item>
+30 minuuuttia
+                    </item>
+                    <item>
+1 tunti
+                    </item>
+                    <item>
+2 tuntia
+                    </item>
+                    <item>
+6 tuntia
+                    </item>
+                    <item>
+12 tuntia
+                    </item>
+                    <item>
+1 päivä
+                    </item>
+                </string-array>
+
+                <string name="settings_fetch_pictures_description" >Lataa kaikki kuvat ja tallenna ne tähän laitteeseen
+                </string>
+                <string name="settings_category_content_presentation" >Sisällön esittäminen
+                </string>
+                <string name="settings_proxy_host" >Palvelin
+                </string>
+                <string name="edit_group_title" >Muokkaa ryhmän nimeä
+                </string>
+                <string name="settings_notifications_vibrate_description" >Aseta uusista artikkeleista ilmoittava värinähälytys
+                </string>
+                <string name="back_again_to_quit" >Paina takaisin-näppäintä vielä kerran lopettaaksesi
+                </string>
+                <string name="settings_notifications_ringtone_description" >Aseta uusista artikkeleista ilmoittava soittoääni
+                </string>
+                <string name="no_filters" >Ei sääntöjä
+                </string>
+                <string name="context_menu_show_read" >Näytä luetut
+                </string>
+                <string name="settings_font_size" >Kirjasintyypin koko
+                </string>
+                <string name="settings_keep_time_description" >Asetettua aikamäärää vanhemmat artikkelit poistetaan
+                </string>
+                <string name="settings_refresh_enabled_description" >Syötteiden automaattinen päivitys
+                </string>
+                <string name="menu_settings" >Asetukset
+                </string>
+                <string name="feed_filters" >POISTA SÄÄNTÖJEN MUKAISET ARTIKKELIT
+                </string>
+                <string name="settings_lighttheme" >Vaalea teema
+                </string>
+                <string name="settings_notifications_enabled" >Näytä ilmoitukset
+                </string>
+                <string name="tab_filters_title" >Suodatus
+                </string>
+                <string name="all_feeds" >Kaikki syötteet (myös tulevat)
+                </string>
+                <string name="filter_is_regex" >on säännöllinen lauseke (regex)
+                </string>
+                <string name="filter_edit_title" >Muokkaa sääntöä
+                </string>
+                <string name="settings_proxy_enabled" >Päällä
+                </string>
+                <string name="settings_refresh_interval_description" >Kahden automaattisen päivityksen välinen aika
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Normaali
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="feeds" >Syötteet
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Käytä välipalvelinta ainoastaan kun wifi-yhteys on käytettävissä
+                </string>
+                <string name="settings_widget_background_description" >Widgetin taustan väri ja läpinäkyvyys
+                </string>
+                <string name="to_group_message" >Voit asettaa tämän syötteen ryhmän sisään tai tasoa ylemmäs. Mitä haluat tehdä?
+                </string>
+                <string name="message_exported_to" >Viety tiedostoon %s
+                </string>
+                <string name="settings_font_size_description" >Artikkelitekstin kirjasintyypin koko
+                </string>
+                <string name="settings_proxy_wifi_only" >Vain wifi-yhteyden kautta
+                </string>
+                <string name="settings_screen_proxy" >Välityspalvelin
+                </string>
+                <string name="settings_refresh_wifi_only_description" >Syötteet päivitetään automaattisesti ainoastaan kun wifi-yhteys on käytettävissä
+                </string>
+                <string name="blue" >Sininen
+                </string>
+                <string name="new_entries" >uutta artikkelia
+                </string>
+                <string name="see_enclosure" >Avaa liite
+                </string>
+                <string name="settings_refresh_enabled" >Automaattinen päivitys päälle
+                </string>
+                <string name="question_delete_feed" >Haluatko poistaa tämän syötteen?
+                </string>
+                <string name="settings_keep_time" >Artikkelien säilyttämisaika
+                </string>
+                <string name="settings_visible_feeds" >Näytettävät syötteet
+                </string>
+                <string name="transparency" >Läpinäkyvyys
+                </string>
+                <string name="settings_notifications_ringtone" >Soittoääni
+                </string>
+                <string name="all" >Artikkelit
+                </string>
+                <string name="website_or_feed" >(verkkosivu tai syöte)
+                </string>
+                <string name="to_group_title" >Syötteen siirtäminen
+                </string>
+                <string name="to_group_into" >Ryhmään
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-fr/strings.xml"
+                qualifiers="fr" >
+                <string name="network_error" >Pas de connexion disponible
+                </string>
+                <string name="menu_refresh" >Actualiser
+                </string>
+                <string name="to_group_into" >Dans le groupe
+                </string>
+                <string name="get_full_text" >Récupérer le texte complet
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Standard
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="no_result" >Aucun résultat
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 jour
+                    </item>
+                    <item>
+2 jours
+                    </item>
+                    <item>
+4 jours
+                    </item>
+                    <item>
+1 semaine
+                    </item>
+                    <item>
+2 semaines
+                    </item>
+                    <item>
+1 mois
+                    </item>
+                    <item>
+2 mois
+                    </item>
+                    <item>
+3 mois
+                    </item>
+                    <item>
+Jamais
+                    </item>
+                </string-array>
+
+                <string name="menu_share" >Partager
+                </string>
+                <string name="menu_settings" >Réglages
+                </string>
+                <string name="new_feed_title" >Nouveau flux
+                </string>
+                <string name="copied_clipboard" >Lien copié
+                </string>
+                <string name="update" >Mise à jour
+                </string>
+                <string name="menu_full_screen" >Plein écran
+                </string>
+                <string name="settings_lighttheme_description" >Utiliser le thème clair
+                </string>
+                <string name="settings_refresh_interval" >Intervalle de mise à jour
+                </string>
+                <string name="loading" >Chargement en cours…
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Utilise le proxy pour le wifi seulement
+                </string>
+                <string name="settings_refresh_enabled" >Activer la mise à jour auto
+                </string>
+                <string name="colon" >\u00A0:\u00A0
+                </string>
+                <string name="original_text" >Affiche le texte original
+                </string>
+                <string name="share_favorites_title" >FeedEx : articles favoris
+                </string>
+                <string name="context_menu_show_read" >Afficher les articles lus
+                </string>
+                <string name="all_feeds" >Tous les flux (y compris ceux à venir)
+                </string>
+                <string name="menu_copy_clipboard" >Copier le lien
+                </string>
+                <string name="settings_refresh_on_open" >Mise à jour des flux à l\'ouverture
+                </string>
+                <string name="never" >jamais
+                </string>
+                <string name="settings_fetch_pictures_description" >Télécharge toutes les images et les stocke
+        localement
+                </string>
+                <string name="edit_feed_title" >Éditer le flux
+                </string>
+                <string name="settings_disable_pictures_description" >Ne jamais afficher et télécharger les
+        images
+                </string>
+                <string name="feed_search_by_topic" >Génère flux par sujet (via Faroo)
+                </string>
+                <string name="settings_notifications_enabled_description" >Active les notifications en cas de
+        nouveaux articles
+                </string>
+                <string name="menu_star" >Mettre en favoris
+                </string>
+                <string name="settings_notifications_enabled" >Activer les notifications
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 minute
+                    </item>
+                    <item>
+5 minutes
+                    </item>
+                    <item>
+15 minutes
+                    </item>
+                    <item>
+30 minutes
+                    </item>
+                    <item>
+1 heure
+                    </item>
+                    <item>
+2 heures
+                    </item>
+                    <item>
+6 heures
+                    </item>
+                    <item>
+12 heures
+                    </item>
+                    <item>
+1 jour
+                    </item>
+                </string-array>
+
+                <string name="feed_search_by_youtube" >Recherche flux par nom de chaîne Youtube
+                </string>
+                <string name="filter_apply_to_title" >Appliquer au titre
+                </string>
+                <string name="drawer_open" >Open navigation drawer
+                </string>
+                <string name="settings_refresh_enabled_description" >Active la mise à jour automatique des flux
+                </string>
+                <string name="feedex_feeds" >Flux FeedEx
+                </string>
+                <string name="edit_group_title" >Éditer le nom du groupe
+                </string>
+                <string name="question_delete_group" >Voulez-vous vraiment supprimer ce groupe et tout ses
+        flux\u00A0?
+                </string>
+                <string name="error_feed_import" >Le fichier sélectionné n\'a pu être importé.
+                </string>
+                <string name="settings_proxy_host" >Hôte
+                </string>
+                <string name="filter_is_regex" >est une expression régulière
+                </string>
+                <string name="menu_mark_as_unread" >Marquer comme non lu
+                </string>
+                <string name="settings_refresh_wifi_only_description" >La mise à jour auto ne se fera que si le
+        Wifi est activé
+                </string>
+                <string name="settings_notifications_ringtone_description" >Choisir une sonnerie annonçant les
+        nouveaux articles
+                </string>
+                <string name="red" >Rouge
+                </string>
+                <string name="settings_lighttheme" >Thème clair
+                </string>
+                <string name="menu_add_feed" >Ajouter un flux
+                </string>
+                <string name="cant_open_link" >Aucune application trouvée pour ce lien
+                </string>
+                <string name="see_enclosure" >Voir le fichier joint
+                </string>
+                <string name="question_delete_feed" >Voulez-vous vraiment supprimer ce flux\u00A0?
+                </string>
+                <string name="no_filters" >Pas de filtres
+                </string>
+                <string name="menu_import" >Importer depuis OPML
+                </string>
+                <string name="settings_keep_time" >Délai de conservation des flux
+                </string>
+                <string name="error_feed_process" >Le flux ne peut pas être traité.
+                </string>
+                <string name="feed_search" >Recherche de flux
+                </string>
+                <string name="to_group_title" >Déplacement de flux
+                </string>
+                <string name="settings_fetch_pictures" >Télécharger les images
+                </string>
+                <string name="feed_title" >TITRE
+                </string>
+                <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="website_or_feed" >(site web ou flux)
+                </string>
+                <string name="favorites" >Favoris
+                </string>
+                <string name="settings_proxy_enabled" >Activé
+                </string>
+                <string name="settings_category_refresh" >Mise à jour automatique
+                </string>
+                <string name="to_group_message" >Vous pouvez placer ce flux dans ou au-dessus de ce groupe. Que
+        voulez-vous faire\u00A0?
+                </string>
+                <string name="tab_filters_title" >Filtres
+                </string>
+                <string name="settings_proxy_type" >Type
+                </string>
+                <string name="error_feed_url_exists" >L\'adresse existe déjà.
+                </string>
+                <string name="settings_visible_feeds" >Flux visibles
+                </string>
+                <string name="settings_font_size_description" >Taille du texte du contenu des articles
+                </string>
+                <string name="optional" >(optionel)
+                </string>
+                <string name="feed_url" >Adresse URL
+                </string>
+                <string name="filter_edit_title" >Éditer le filtre
+                </string>
+                <string name="settings_widget_background_description" >Couleur et transparence de l\'arrière-plan
+        du widget
+                </string>
+                <string name="error_external_storage_not_available" >Le stockage externe (comme la carte SD)
+        n\'est pas disponible.
+                </string>
+                <string name="back_again_to_quit" >Appuyez de nouveau sur retour pour quitter
+                </string>
+                <string name="menu_add_group" >Ajouter un groupe
+                </string>
+                <string name="question_delete_filter" >Voulez-vous vraiment supprimer ce filtre\u00A0?
+                </string>
+                <string name="tab_feed_title" >Flux
+                </string>
+                <string name="filter_apply_to_content" >Appliquer au contenu
+                </string>
+                <string name="new_entries" >nouveaux articles
+                </string>
+                <string name="settings_notifications_vibrate_description" >Active la vibration pour les nouveaux
+        articles
+                </string>
+                <string name="error_feed_error" >L\'adresse du flux n\'est pas accessible.
+                </string>
+                <string name="settings_notifications_vibrate" >Vibrer
+                </string>
+                <string name="select_file" >Sélectionner le fichier (racine SD)
+                </string>
+                <string name="see_link" >Ouvrir dans le navigateur
+                </string>
+                <string name="feed_search_by_web_search" >Recherche flux par mot-clé
+                </string>
+                <string name="no_entries" >Pas d\'article
+                </string>
+                <string name="message_exported_to" >Exporté vers %s.
+                </string>
+                <string name="settings_proxy_wifi_only" >Wifi seulement
+                </string>
+                <string name="feed_filters" >FILTRES D\'EXCLUSION
+                </string>
+                <string name="menu_all_read" >Marquer tout comme lu
+                </string>
+                <string name="no_feeds" >Pas de flux
+                </string>
+                <string name="filter_add_title" >Ajouter un filtre
+                </string>
+                <string name="settings_widget_background" >Arrière-plan
+                </string>
+                <string name="settings_proxy_port" >Port
+                </string>
+                <string name="feeds" >Flux
+                </string>
+                <string name="error_feed_export" >L\'export a échoué. Assurez-vous d\'avoir une carte SD montée
+        et autorisée en écriture.
+                </string>
+                <string name="settings_category_notifications" >Notifications
+                </string>
+                <string name="settings_refresh_interval_description" >Intervalle entre 2 mises à jour
+        automatique
+                </string>
+                <string name="all" >Articles
+                </string>
+                <string name="settings_screen_proxy" >Proxy
+                </string>
+                <string name="context_menu_edit" >Éditer
+                </string>
+                <string name="blue" >Bleu
+                </string>
+                <string name="settings_disable_pictures" >Désactiver les images
+                </string>
+                <string name="settings_keep_time_description" >Les articles plus anciens que le délai indiqué
+        seront effacés
+                </string>
+                <string name="menu_unstar" >Enlever des favoris
+                </string>
+                <string name="green" >Vert
+                </string>
+                <string name="settings_refresh_on_open_description" >Met à jour tous les flux à l\'ouverture de
+        l\'application
+                </string>
+                <string name="settings_category_content_presentation" >Présentation des flux
+                </string>
+                <string name="error" >Erreur
+                </string>
+                <string name="to_group_above" >Au-dessus du groupe
+                </string>
+                <string name="context_menu_hide_read" >Cacher les articles lus
+                </string>
+                <string name="settings_refresh_wifi_only" >Mise à jour en Wifi uniquement
+                </string>
+                <string name="settings_font_size" >Taille du texte
+                </string>
+                <string name="settings_notifications_ringtone" >Sonnerie
+                </string>
+                <string name="settings_category_network" >Réseau
+                </string>
+                <string name="transparency" >Transparence
+                </string>
+                <string name="filter_delete_title" >Supprimer un filtre
+                </string>
+                <string name="add_group_title" >Entrez le nom du groupe
+                </string>
+                <string name="context_menu_share_starred" >Partager les favoris
+                </string>
+                <string name="menu_export" >Exporter vers OPML
+                </string>
+                <string name="context_menu_delete" >Supprimer
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-it/strings.xml"
+                qualifiers="it" >
+                <string name="to_group_above" >Sopra il gruppo
+                </string>
+                <string name="new_feed_title" >Nuovo feed
+                </string>
+                <string name="settings_notifications_ringtone_description" >Seleziona una suoneria che sarà
+        utilizzata all\'arrivo di nuovi articoli
+                </string>
+                <string name="menu_export" >Esporta OPML
+                </string>
+                <string name="update" >Aggiornamento
+                </string>
+                <string name="feed_search_by_web_search" >Trova feed per parola chiave
+                </string>
+                <string name="filter_edit_title" >Modifica filtro
+                </string>
+                <string name="menu_import" >Importa OPML
+                </string>
+                <string name="colon" >:\u00A0
+                </string>
+                <string name="context_menu_edit" >Modifica
+                </string>
+                <string name="filter_apply_to_title" >Applica al titolo
+                </string>
+                <string name="settings_keep_time" >Tempo di archiviazione
+                </string>
+                <string name="context_menu_delete" >Elimina
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Usa il proxy solo per la rete WiFi
+                </string>
+                <string name="no_entries" >Nessun articolo
+                </string>
+                <string name="transparency" >Trasparenza
+                </string>
+                <string name="settings_notifications_enabled" >Attiva notifiche
+                </string>
+                <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="red" >Rosso
+                </string>
+                <string name="error_feed_process" >Il feed non può essere processato.
+                </string>
+                <string name="settings_refresh_wifi_only" >Aggiorna solo in WiFi
+                </string>
+                <string name="blue" >Blu
+                </string>
+                <string name="menu_star" >Aggiungi ai preferiti
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Standard
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="settings_category_content_presentation" >Aspetto e contenuti
+                </string>
+                <string name="settings_keep_time_description" >Indica per quanto tempo gli articoli saranno
+        conservati
+                </string>
+                <string name="feed_search_by_topic" >Genera feed per soggetto (via Faroo)
+                </string>
+                <string name="menu_add_feed" >Aggiungi feed
+                </string>
+                <string name="no_feeds" >Nessun feed
+                </string>
+                <string name="context_menu_hide_read" >Nascondi articoli letti
+                </string>
+                <string name="settings_proxy_enabled" >Attivato
+                </string>
+                <string name="menu_refresh" >Aggiorna
+                </string>
+                <string name="menu_settings" >Impostazioni
+                </string>
+                <string name="error_feed_url_exists" >L\'indirizzo è già presente.
+                </string>
+                <string name="see_enclosure" >Vedi allegati
+                </string>
+                <string name="to_group_into" >Dentro il gruppo
+                </string>
+                <string name="settings_disable_pictures_description" >Le immagini non saranno scaricate e
+        visualizzate
+                </string>
+                <string name="filter_add_title" >Aggiungi filtro
+                </string>
+                <string name="context_menu_show_read" >Mostra articoli letti
+                </string>
+                <string name="feed_filters" >FILTRO ESCLUSIONI
+                </string>
+                <string name="edit_feed_title" >Modifica feed
+                </string>
+                <string name="settings_refresh_interval_description" >Intervallo tra due aggiornamenti automatici
+                </string>
+                <string name="error_feed_export" >L\'esportazione è fallita. Controllare di avere una scheda SD
+        scrivibile e correttamente montata.
+                </string>
+                <string name="settings_notifications_vibrate" >Vibrazione
+                </string>
+                <string name="all_feeds" >Tutti i feed (inclusi futuri)
+                </string>
+                <string name="filter_apply_to_content" >Applica al contenuto
+                </string>
+                <string name="feed_search_by_youtube" >Trova feed dal nome del canale Youtube
+                </string>
+                <string name="settings_widget_background" >Sfondo
+                </string>
+                <string name="settings_proxy_type" >Tipo
+                </string>
+                <string name="settings_notifications_ringtone" >Suoneria
+                </string>
+                <string name="settings_lighttheme" >Tema chiaro
+                </string>
+                <string name="no_result" >Nessun risultato
+                </string>
+                <string name="settings_notifications_vibrate_description" >Attiva la vibrazione all\'arrivo di
+        nuovi articoli
+                </string>
+                <string name="settings_disable_pictures" >Disabilita immagini
+                </string>
+                <string name="menu_mark_as_unread" >Segna come non letto
+                </string>
+                <string name="network_error" >Nessuna connessione disponibile
+                </string>
+                <string name="settings_category_notifications" >Notifiche
+                </string>
+                <string name="to_group_message" >Puoi sia spostare il feed dentro il gruppo sia prima del gruppo.
+        Cosa vuoi fare?
+                </string>
+                <string name="no_filters" >Nessun filtro
+                </string>
+                <string name="settings_proxy_wifi_only" >Solo WiFi
+                </string>
+                <string name="settings_lighttheme_description" >Utilizza il tema chiaro
+                </string>
+                <string name="error_feed_error" >L\'indirizzo del feed non può essere raggiunto.
+                </string>
+                <string name="menu_all_read" >Segna tutti come letti
+                </string>
+                <string name="add_group_title" >Inserire nome del gruppo
+                </string>
+                <string name="never" >mai
+                </string>
+                <string name="select_file" >Seleziona file (radice SD)
+                </string>
+                <string name="get_full_text" >Recupera il testo completo
+                </string>
+                <string name="filter_is_regex" >è un\'espressione regolare
+                </string>
+                <string name="settings_fetch_pictures_description" >Scarica tutte le immagini e conservale
+        localmente
+                </string>
+                <string name="settings_refresh_enabled_description" >Attiva l\'aggiornamento automatico dei feed
+                </string>
+                <string name="question_delete_feed" >Vuoi cancellare questo feed?
+                </string>
+                <string name="menu_full_screen" >A tutto schermo
+                </string>
+                <string name="settings_category_network" >Rete
+                </string>
+                <string name="error_external_storage_not_available" >L\'archivio esterno (per esempio la scheda SD)
+        non è disponibile.
+                </string>
+                <string name="error" >Errore
+                </string>
+                <string name="green" >Verde
+                </string>
+                <string name="to_group_title" >Azione spostamento feed
+                </string>
+                <string name="feedex_feeds" >Feed di FeedEx
+                </string>
+                <string name="settings_screen_proxy" >Proxy
+                </string>
+                <string name="all" >Articoli
+                </string>
+                <string name="settings_notifications_enabled_description" >Attiva le notifiche all\'arrivo di nuovi
+        articoli
+                </string>
+                <string name="share_favorites_title" >FeedEx: articoli preferiti
+                </string>
+                <string name="tab_feed_title" >Feed
+                </string>
+                <string name="context_menu_share_starred" >Condividi articoli preferiti
+                </string>
+                <string name="settings_font_size" >Dimensione testo
+                </string>
+                <string name="settings_proxy_port" >Porta
+                </string>
+                <string name="error_feed_import" >Il file selezionato non può essere importato.
+                </string>
+                <string name="website_or_feed" >(sito web o feed)
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 minuto
+                    </item>
+                    <item>
+5 minuti
+                    </item>
+                    <item>
+15 minuti
+                    </item>
+                    <item>
+30 minuti
+                    </item>
+                    <item>
+1 ora
+                    </item>
+                    <item>
+2 ore
+                    </item>
+                    <item>
+6 ore
+                    </item>
+                    <item>
+12 ore
+                    </item>
+                    <item>
+1 giorno
+                    </item>
+                </string-array>
+
+                <string name="feed_title" >TITOLO
+                </string>
+                <string name="drawer_open" >Open navigation drawer
+                </string>
+                <string name="copied_clipboard" >Link copiato
+                </string>
+                <string name="new_entries" >nuovi articoli
+                </string>
+                <string name="settings_refresh_interval" >Intervallo
+                </string>
+                <string name="favorites" >Preferiti
+                </string>
+                <string name="settings_visible_feeds" >Feed visibili
+                </string>
+                <string name="feed_url" >Indirizzo URL
+                </string>
+                <string name="loading" >Caricamento in corso…
+                </string>
+                <string name="menu_share" >Condividi
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 giorno
+                    </item>
+                    <item>
+2 giorni
+                    </item>
+                    <item>
+4 giorni
+                    </item>
+                    <item>
+1 settimana
+                    </item>
+                    <item>
+2 settimane
+                    </item>
+                    <item>
+1 mese
+                    </item>
+                    <item>
+2 mesi
+                    </item>
+                    <item>
+3 mesi
+                    </item>
+                    <item>
+Per sempre
+                    </item>
+                </string-array>
+
+                <string name="settings_widget_background_description" >Colore e trasparenza dello sfondo del widget
+                </string>
+                <string name="menu_unstar" >Rimuovi dai preferiti
+                </string>
+                <string name="menu_copy_clipboard" >Copia il link
+                </string>
+                <string name="feeds" >Feed
+                </string>
+                <string name="settings_refresh_on_open_description" >Aggiorna tutti i feed all\'apertura
+        dell\'applicazione
+                </string>
+                <string name="settings_refresh_enabled" >Attiva aggiornamento automatico
+                </string>
+                <string name="optional" >(opzionale)
+                </string>
+                <string name="see_link" >Vedi nel browser
+                </string>
+                <string name="settings_fetch_pictures" >Scarica immagini
+                </string>
+                <string name="settings_refresh_on_open" >Aggiorna feed all\'apertura
+                </string>
+                <string name="menu_add_group" >Aggiungi gruppo
+                </string>
+                <string name="tab_filters_title" >Filtri
+                </string>
+                <string name="original_text" >Mostra testo originale
+                </string>
+                <string name="settings_font_size_description" >Dimensione del testo dei contenuti degli articoli
+                </string>
+                <string name="settings_proxy_host" >Host
+                </string>
+                <string name="feed_search" >Ricerca feed
+                </string>
+                <string name="message_exported_to" >Esportato su %s.
+                </string>
+                <string name="cant_open_link" >Nessuna applicazione trovata per questo link
+                </string>
+                <string name="filter_delete_title" >Elimina filtro
+                </string>
+                <string name="back_again_to_quit" >Premere indietro un\'altra volta per uscire
+                </string>
+                <string name="edit_group_title" >Modificare nome del gruppo
+                </string>
+                <string name="question_delete_group" >Vuoi cancellare questo gruppo e tutti i suoi feed?
+                </string>
+                <string name="question_delete_filter" >Vuoi cancellare questo filtro?
+                </string>
+                <string name="settings_category_refresh" >Aggiornamento automatico
+                </string>
+                <string name="settings_refresh_wifi_only_description" >L\'aggiornamento automatico viene eseguito
+        solo quando si è connessi ad una rete WiFi
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-ru/strings.xml"
+                qualifiers="ru" >
+                <string name="settings_category_content_presentation" >Представление содержания
+                </string>
+                <string name="menu_settings" >Настройки
+                </string>
+                <string name="settings_refresh_interval" >Интервал обновления
+                </string>
+                <string name="feeds" >Ленты
+                </string>
+                <string name="no_filters" >Нет фильтров
+                </string>
+                <string name="menu_refresh" >Обновить
+                </string>
+                <string name="settings_category_notifications" >Уведомления
+                </string>
+                <string name="menu_star" >Поместить в избранное
+                </string>
+                <string name="question_delete_feed" >Вы действительно хотите удалить эту ленту?
+                </string>
+                <string name="to_group_title" >Перенос ленты
+                </string>
+                <string name="error_feed_process" >Лента не может быть добавлена.
+                </string>
+                <string name="see_enclosure" >Показать вложение
+                </string>
+                <string name="menu_unstar" >Убрать из избранного
+                </string>
+                <string name="drawer_open" >Open navigation drawer
+                </string>
+                <string name="settings_proxy_type" >Тип соединения
+                </string>
+                <string name="edit_group_title" >Редактировать название группы
+                </string>
+                <string name="transparency" >Прозрачный
+                </string>
+                <string name="get_full_text" >Загрузить весь текст
+                </string>
+                <string name="share_favorites_title" >FeedEx: избранные новости
+                </string>
+                <string name="settings_notifications_enabled_description" >Включить уведомления о новых записях
+                </string>
+                <string name="settings_lighttheme_description" >Использовать светлую тему
+                </string>
+                <string name="tab_feed_title" >Ленту
+                </string>
+                <string name="no_entries" >Нет новостей
+                </string>
+                <string name="feed_search_by_web_search" >Искать ленты по ключевым словам
+                </string>
+                <string name="menu_add_group" >Добавить группу
+                </string>
+                <string name="new_entries" >новые записи
+                </string>
+                <string name="add_group_title" >Выберите название группы
+                </string>
+                <string name="settings_notifications_vibrate" >Вибрация
+                </string>
+                <string name="to_group_message" >Вы можете поместить ленту внутрь этой группы, либо сверху от
+        нее. Что вы хотите сделать?
+                </string>
+                <string name="menu_share" >Поделиться
+                </string>
+                <string name="settings_category_refresh" >Автоматическое обновление
+                </string>
+                <string name="settings_notifications_ringtone" >Звук
+                </string>
+                <string name="filter_apply_to_content" >Применить к содержанию
+                </string>
+                <string name="menu_full_screen" >Полный экран
+                </string>
+                <string name="settings_notifications_vibrate_description" >Включить вибрацию при новых записях
+                </string>
+                <string name="feed_search_by_youtube" >Найти ленту по названию канала Youtube
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Использовать прокси-сервер только для WiFi
+                </string>
+                <string name="settings_disable_pictures" >Выключить изображения
+                </string>
+                <string name="context_menu_edit" >Редактировать
+                </string>
+                <string name="settings_font_size" >Размер текста
+                </string>
+                <string name="original_text" >Показать оригинальный текст
+                </string>
+                <string name="error_external_storage_not_available" >Внешнее хранилище (например, карта памяти)
+        недоступно.
+                </string>
+                <string name="menu_copy_clipboard" >Скопировать ссылку
+                </string>
+                <string name="settings_notifications_enabled" >Включить уведомления
+                </string>
+                <string name="settings_keep_time" >Время хранения новостей
+                </string>
+                <string name="new_feed_title" >Новая лента
+                </string>
+                <string name="all" >Новости
+                </string>
+                <string name="back_again_to_quit" >Нажмите "Назад" еще раз, чтобы выйти
+                </string>
+                <string name="network_error" >Нет подключения к сети
+                </string>
+                <string name="blue" >Синий
+                </string>
+                <string name="favorites" >Избранное
+                </string>
+                <string name="context_menu_share_starred" >Поделиться избранными новостями
+                </string>
+                <string name="see_link" >Открыть в браузере
+                </string>
+                <string name="context_menu_show_read" >Показать прочитанные новости
+                </string>
+                <string name="menu_export" >Экспорт в OPML-файл
+                </string>
+                <string name="error" >Ошибка
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Стандартно
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="error_feed_import" >Выбранный файл не может быть импортирован.
+                </string>
+                <string name="menu_add_feed" >Добавить ленту
+                </string>
+                <string name="no_result" >Нет результатов
+                </string>
+                <string name="drawer_close" >Close navigation drawer
+                </string>
+                <string name="settings_refresh_enabled_description" >Включить автоматическое обновление лент
+                </string>
+                <string name="settings_proxy_wifi_only" >Только WiFi
+                </string>
+                <string name="to_group_above" >Над группой
+                </string>
+                <string name="question_delete_group" >Вы действительно хотите удалить эту группу и все ее
+        ленты??
+                </string>
+                <string name="settings_refresh_on_open_description" >Обновлять все ленты пии запуске приложения
+                </string>
+                <string name="menu_import" >Импорт из OPML-файла
+                </string>
+                <string name="green" >Зеленый
+                </string>
+                <string name="colon" >:\u00A0
+                </string>
+                <string name="filter_add_title" >Добавить фильтр
+                </string>
+                <string name="settings_font_size_description" >Размер текста новостей
+                </string>
+                <string name="settings_widget_background_description" >Цвета и прозрачность фона виджета
+                </string>
+                <string name="error_feed_export" >Экспорт не удался. Удостоверьтесь, что карта памяти имеет
+        возможность записи.
+                </string>
+                <string name="feedex_feeds" >FeedEx корма
+                </string>
+                <string name="settings_category_network" >Сеть
+                </string>
+                <string name="all_feeds" >Все ленты (включая будущие)
+                </string>
+                <string name="settings_screen_proxy" >Прокси-сервер
+                </string>
+                <string name="loading" >Загрузка…
+                </string>
+                <string name="settings_visible_feeds" >Видимые ленты
+                </string>
+                <string name="settings_proxy_port" >Порт
+                </string>
+                <string name="optional" >(не обязательно)
+                </string>
+                <string name="context_menu_delete" >Удалить
+                </string>
+                <string name="settings_proxy_host" >Адрес сервера
+                </string>
+                <string name="settings_proxy_enabled" >Включено
+                </string>
+                <string name="settings_fetch_pictures_description" >Загружать все изображения и сохранять их в
+        памяти
+                </string>
+                <string name="settings_lighttheme" >Светлая тема
+                </string>
+                <string name="error_feed_error" >Адрес ленты не доступен.
+                </string>
+                <string name="feed_filters" >ФИЛЬТРЫ ИСКЛЮЧЕНИЙ
+                </string>
+                <string name="edit_feed_title" >Редактировать ленту
+                </string>
+                <string name="menu_mark_as_unread" >Пометить как непрочитанное
+                </string>
+                <string name="settings_fetch_pictures" >Загружать изображения
+                </string>
+                <string name="update" >Обновление
+                </string>
+                <string name="question_delete_filter" >Вы действительно хотите удалить этот фильтр?
+                </string>
+                <string name="settings_notifications_ringtone_description" >Выбрать звук уведомления
+                </string>
+                <string name="feed_search" >Поиск лент
+                </string>
+                <string name="filter_is_regex" >это регулярное выражение
+                </string>
+                <string name="select_file" >Выбрать файл (корень SD-карты)
+                </string>
+                <string name="filter_delete_title" >Удалить фильтр
+                </string>
+                <string name="settings_refresh_enabled" >Включить автоматическое обновление
+                </string>
+                <string name="error_feed_url_exists" >Такой адрес уже есть.
+                </string>
+                <string name="context_menu_hide_read" >Скрыть прочитанные новости
+                </string>
+                <string name="settings_refresh_interval_description" >Интервал между автоматическим обновлением
+                </string>
+                <string name="settings_refresh_wifi_only_description" >Автоматическое обновление будет
+        выполняться только при включенном WiFi
+                </string>
+                <string name="settings_refresh_on_open" >Обновлять при запуске
+                </string>
+                <string name="filter_edit_title" >Редактировать фильтр
+                </string>
+                <string name="never" >никогда
+                </string>
+                <string name="copied_clipboard" >Ссылка скопирована
+                </string>
+                <string name="settings_refresh_wifi_only" >Обновлять только по WiFi
+                </string>
+                <string name="settings_disable_pictures_description" >Не показывать и не загружать никаких
+        изображений
+                </string>
+                <string name="feed_search_by_topic" >Создать ленту по заголовку (через Faroo)
+                </string>
+                <string name="filter_apply_to_title" >Применить к заголовкам
+                </string>
+                <string name="message_exported_to" >Экспортировано в %s.
+                </string>
+                <string name="tab_filters_title" >Фильтры
+                </string>
+                <string name="settings_widget_background" >Фон
+                </string>
+                <string name="menu_all_read" >Пометить все как прочитанное
+                </string>
+                <string name="red" >Красный
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 день
+                    </item>
+                    <item>
+2 дня
+                    </item>
+                    <item>
+4 дня
+                    </item>
+                    <item>
+1 неделя
+                    </item>
+                    <item>
+2 недели
+                    </item>
+                    <item>
+1 месяц
+                    </item>
+                    <item>
+2 месяца
+                    </item>
+                    <item>
+3 месяца
+                    </item>
+                    <item>
+Не удалять
+                    </item>
+                </string-array>
+
+                <string name="feed_title" >НАЗВАНИЕ
+                </string>
+                <string name="to_group_into" >Внутрь группы
+                </string>
+                <string name="settings_keep_time_description" >Новости старше установленной даты будут удалены
+                </string>
+                <string name="no_feeds" >Нет лент
+                </string>
+                <string name="feed_url" >URL-адрес
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 минута
+                    </item>
+                    <item>
+5 минут
+                    </item>
+                    <item>
+15 минут
+                    </item>
+                    <item>
+30 минут
+                    </item>
+                    <item>
+1 час
+                    </item>
+                    <item>
+2 часа
+                    </item>
+                    <item>
+6 часов
+                    </item>
+                    <item>
+12 часов
+                    </item>
+                    <item>
+1 день
+                    </item>
+                </string-array>
+
+                <string name="website_or_feed" >(сайта или ленты новостей)
+                </string>
+                <string name="cant_open_link" >Не найдено приложений для открытия этой ссылки
+                </string>
+            </file>
+            <file
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/values-sv/strings.xml"
+                qualifiers="sv" >
+                <string name="to_group_into" >In till gruppen
+                </string>
+                <string name="menu_full_screen" >Helskärm
+                </string>
+                <string name="menu_add_feed" >Lägg till feed
+                </string>
+                <string name="green" >Grön
+                </string>
+                <string name="settings_refresh_interval_description" >Intervall mellan två automatiska uppdateringar
+                </string>
+                <string name="message_exported_to" >Exporterad till %s.
+                </string>
+                <string name="settings_proxy_host" >Host
+                </string>
+                <string name="menu_star" >Mark som favorit
+                </string>
+                <string name="filter_add_title" >Lägg till regel
+                </string>
+                <string name="menu_all_read" >Mark som läst
+                </string>
+                <string name="error" >Fel
+                </string>
+                <string name="settings_proxy_port" >Port
+                </string>
+                <string name="menu_export" >Exportera till OPML
+                </string>
+                <string name="favorites" >Favoriter
+                </string>
+                <string name="network_error" >Nätverket är inte tillgängligt
+                </string>
+                <string name="settings_proxy_wifi_only" >Endast wifi
+                </string>
+                <string name="share_favorites_title" >FeedEx: favoriter
+                </string>
+                <string name="feed_search_by_topic" >Skapa feed utifrån en sökning (via FAROO)
+                </string>
+                <string name="no_result" >Inga resultat
+                </string>
+                <string name="to_group_above" >Utanför gruppen
+                </string>
+                <string name="menu_share" >Dela
+                </string>
+                <string name="original_text" >Visa originaltexten
+                </string>
+                <string name="settings_refresh_wifi_only" >Uppdatera endast över wifi
+                </string>
+                <string name="settings_proxy_type" >Type
+                </string>
+                <string name="filter_apply_to_content" >Tillämpa på texten
+                </string>
+                <string name="error_feed_export" >Exporten har misslyckats. Försäkra dig om att du har ett skrivbart SD-kort monterat.
+                </string>
+                <string name="filter_delete_title" >Radera regel
+                </string>
+                <string name="error_external_storage_not_available" >Det externa lagringsmediet (d.v.s. SD-kort) finns ej tillgängligt.
+                </string>
+                <string name="feed_search" >Sök efter feed
+                </string>
+                <string name="settings_category_refresh" >Automatisk uppdatering
+                </string>
+                <string name="transparency" >Transparens
+                </string>
+                <string name="never" >aldrig
+                </string>
+                <string name="context_menu_share_starred" >Dela favoriter
+                </string>
+                <string name="context_menu_delete" >Radera
+                </string>
+                <string name="tab_filters_title" >Filter
+                </string>
+                <string name="copied_clipboard" >Länk kopierad
+                </string>
+                <string name="menu_settings" >Inställningar
+                </string>
+                <string name="settings_refresh_interval" >Uppdateringsintervall
+                </string>
+                <string name="settings_proxy_wifi_only_description" >Använd proxy endast för wifi
+                </string>
+                <string name="settings_category_notifications" >Påminnelser
+                </string>
+                <string name="settings_notifications_enabled" >Visa påminnelser
+                </string>
+                <string name="drawer_open" >Öppna navigationspanelen
+                </string>
+                <string name="feed_search_by_youtube" >Sök efter kanaler på Youtube
+                </string>
+                <string name="settings_notifications_enabled_description" >Visa påminnelser då nytt feed innehåll finns
+                </string>
+
+                <string-array name="settings_font_sizes" >
+                    <item>
+-2
+                    </item>
+                    <item>
+-1
+                    </item>
+                    <item>
+Normal
+                    </item>
+                    <item>
++1
+                    </item>
+                    <item>
++2
+                    </item>
+                    <item>
++3
+                    </item>
+                </string-array>
+
+                <string name="settings_refresh_on_open" >Uppdatera feeds vid start
+                </string>
+                <string name="optional" >(valfritt)
+                </string>
+                <string name="settings_font_size_description" >Typsnittsstorlek för inläggstext
+                </string>
+                <string name="settings_widget_background" >Bakgrund
+                </string>
+                <string name="settings_keep_time_description" >Inläggen som är äldre än den givna tidslängden raderas
+                </string>
+                <string name="no_filters" >Inga regler
+                </string>
+                <string name="all" >Inlägg
+                </string>
+                <string name="settings_disable_pictures_description" >Visa inte, ladda inte ned några bilder
+                </string>
+                <string name="drawer_close" >Stänga navigationspanelen
+                </string>
+                <string name="menu_refresh" >Uppdatera
+                </string>
+                <string name="question_delete_group" >Vill du radera denna grupp och alla dess feeds?
+                </string>
+                <string name="feeds" >Feeds
+                </string>
+
+                <string-array name="settings_keep_times" >
+                    <item>
+1 dag
+                    </item>
+                    <item>
+2 dagar
+                    </item>
+                    <item>
+4 dagar
+                    </item>
+                    <item>
+1 vecka
+                    </item>
+                    <item>
+2 veckor
+                    </item>
+                    <item>
+1 månad
+                    </item>
+                    <item>
+2 månader
+                    </item>
+                    <item>
+3 månader
+                    </item>
+                    <item>
+För alltid
+                    </item>
+                </string-array>
+
+                <string name="settings_category_network" >Nätverk
+                </string>
+                <string name="error_feed_error" >Feed:ens URL kunde inte öppnas.
+                </string>
+                <string name="new_entries" >nya inlägg
+                </string>
+                <string name="question_delete_filter" >Vill du radera denna regel?
+                </string>
+                <string name="settings_refresh_enabled_description" >Uppdatera alla feeds automatiskt
+                </string>
+                <string name="new_feed_title" >Ny feed
+                </string>
+                <string name="back_again_to_quit" >Press back once more to exit
+                </string>
+                <string name="loading" >Laddar…
+                </string>
+                <string name="see_enclosure" >Visa bifogad mediafil
+                </string>
+                <string name="error_feed_import" >Den valda filen kunde inte importeras.
+                </string>
+                <string name="question_delete_feed" >Vill du radera denna feed?
+                </string>
+                <string name="settings_fetch_pictures_description" >Ladda ned alla bilder och lagra dem lokalt
+                </string>
+                <string name="menu_unstar" >Avmark som favorit
+                </string>
+                <string name="no_feeds" >Inga feeds
+                </string>
+                <string name="select_file" >Välj fil (SD-root)
+                </string>
+                <string name="feed_filters" >FILTRERA BORT ENLIGT DESSA REGLER
+                </string>
+                <string name="filter_apply_to_title" >Tillämpa på titeln
+                </string>
+                <string name="error_feed_process" >Feed:en kunde inte processeras.
+                </string>
+                <string name="edit_group_title" >Redigera gruppens namn
+                </string>
+                <string name="colon" >:\u00A0
+                </string>
+                <string name="settings_visible_feeds" >Synliga feeds
+                </string>
+                <string name="add_group_title" >Ny grupp
+                </string>
+                <string name="filter_is_regex" >är ett reguljärt uttryck (regex)
+                </string>
+                <string name="settings_category_content_presentation" >Innehållspresentation
+                </string>
+                <string name="update" >Uppdaterad
+                </string>
+                <string name="settings_screen_proxy" >Proxy
+                </string>
+                <string name="filter_edit_title" >Redigera regel
+                </string>
+                <string name="settings_refresh_wifi_only_description" >Uppdatera automatisk endast när ett wifi-nätverk är tillgänglig
+                </string>
+                <string name="to_group_message" >Du kan flytta denna feed varken in till gruppen eller utanför gruppen. Vad vill du göra?
+                </string>
+                <string name="context_menu_edit" >Redigera
+                </string>
+                <string name="tab_feed_title" >Feed
+                </string>
+
+                <string-array name="settings_intervals" >
+                    <item>
+1 minut
+                    </item>
+                    <item>
+5 minuter
+                    </item>
+                    <item>
+15 minuter
+                    </item>
+                    <item>
+30 minuter
+                    </item>
+                    <item>
+1 timme
+                    </item>
+                    <item>
+2 timmar
+                    </item>
+                    <item>
+6 timmar
+                    </item>
+                    <item>
+12 timmar
+                    </item>
+                    <item>
+1 dag
+                    </item>
+                </string-array>
+
+                <string name="cant_open_link" >Inget lämpligt program hittades för denna länk
+                </string>
+                <string name="settings_proxy_enabled" >Använd proxyserver
+                </string>
+                <string name="website_or_feed" >(webbplats eller feed)
+                </string>
+                <string name="settings_notifications_vibrate" >Vibrera
+                </string>
+                <string name="see_link" >Öppna i webläsare
+                </string>
+                <string name="no_entries" >Inga poster
+                </string>
+                <string name="settings_lighttheme_description" >Använd det ljusa temat
+                </string>
+                <string name="context_menu_show_read" >Visa lästa inlägg
+                </string>
+                <string name="feed_url" >URL
+                </string>
+                <string name="settings_refresh_on_open_description" >Uppdatera alla feeds när applikationen öppnas
+                </string>
+                <string name="menu_add_group" >Lägg till grupp
+                </string>
+                <string name="menu_mark_as_unread" >Mark som oläst
+                </string>
+                <string name="edit_feed_title" >Redigera feed
+                </string>
+                <string name="to_group_title" >Flytta feed
+                </string>
+                <string name="blue" >Blå
+                </string>
+                <string name="settings_fetch_pictures" >Ladda ned bilder
+                </string>
+                <string name="settings_refresh_enabled" >Uppdatera automatiskt
+                </string>
+                <string name="settings_keep_time" >Tid som inläggen behållas
+                </string>
+                <string name="get_full_text" >Hämta hela texten
+                </string>
+                <string name="settings_font_size" >Typsnittsstorlek
+                </string>
+                <string name="menu_copy_clipboard" >Kopiera länk
+                </string>
+                <string name="all_feeds" >Alla feeds (inkl. kommande)
+                </string>
+                <string name="menu_import" >Importera från OPML
+                </string>
+                <string name="red" >Röd
+                </string>
+                <string name="feed_search_by_web_search" >Sök på webben med nyckelord
+                </string>
+                <string name="context_menu_hide_read" >Göm lästa inlägg
+                </string>
+                <string name="settings_lighttheme" >Ljust tema
+                </string>
+                <string name="settings_notifications_ringtone_description" >Välj en ringsignal som spelas vid nytt feed innehåll
+                </string>
+                <string name="settings_notifications_ringtone" >Ringsignal
+                </string>
+                <string name="settings_notifications_vibrate_description" >Vibrera vid nytt feed innehåll
+                </string>
+                <string name="feedex_feeds" >FeedEx feeds
+                </string>
+                <string name="feed_title" >TITEL
+                </string>
+                <string name="settings_widget_background_description" >Färg och transparens för widgetens bakgrund
+                </string>
+                <string name="settings_disable_pictures" >Använd inte bilder
+                </string>
+                <string name="error_feed_url_exists" >URL:en existerar redan.
+                </string>
+            </file>
+            <file
+                name="widgetinfo"
+                path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/res/xml/widgetinfo.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/debug/res" />
+    </dataSet>
+
+</merger>
