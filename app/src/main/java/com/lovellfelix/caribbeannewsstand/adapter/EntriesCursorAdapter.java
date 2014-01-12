@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
 import com.lovellfelix.caribbeannewsstand.MainApplication;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.EntryColumns;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.FeedColumns;

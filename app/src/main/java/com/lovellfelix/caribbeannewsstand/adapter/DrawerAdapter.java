@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.lovellfelix.caribbeannewsstand.MainApplication;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.utils.UiUtils;
 
 import java.util.LinkedHashMap;

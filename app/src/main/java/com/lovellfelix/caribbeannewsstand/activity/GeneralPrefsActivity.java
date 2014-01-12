@@ -7,7 +7,7 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.service.RefreshService;
 import com.lovellfelix.caribbeannewsstand.utils.PrefUtils;
 import com.lovellfelix.caribbeannewsstand.utils.UiUtils;

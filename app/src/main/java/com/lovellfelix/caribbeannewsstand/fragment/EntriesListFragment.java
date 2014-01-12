@@ -29,7 +29,7 @@ import android.widget.ListView;
 import android.widget.SearchView;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.adapter.EntriesCursorAdapter;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.EntryColumns;
 import com.lovellfelix.caribbeannewsstand.provider.FeedDataContentProvider;

@@ -32,7 +32,7 @@ import android.widget.Toast;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
 import com.lovellfelix.caribbeannewsstand.MainApplication;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.activity.BaseActivity;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.EntryColumns;

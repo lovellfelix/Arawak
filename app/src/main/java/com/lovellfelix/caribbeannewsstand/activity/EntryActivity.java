@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.fragment.EntryFragment;
 import com.lovellfelix.caribbeannewsstand.utils.UiUtils;
 

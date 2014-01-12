@@ -27,7 +27,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lovellfelix.caribbeannewsstand.MainApplication;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.adapter.FeedsCursorAdapter;
 import com.lovellfelix.caribbeannewsstand.parser.OPML;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.FeedColumns;

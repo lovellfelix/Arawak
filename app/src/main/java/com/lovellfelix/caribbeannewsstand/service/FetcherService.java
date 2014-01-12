@@ -18,7 +18,7 @@ import android.util.Xml;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
 import com.lovellfelix.caribbeannewsstand.MainApplication;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.activity.HomeActivity;
 import com.lovellfelix.caribbeannewsstand.parser.RssAtomParser;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData;

@@ -17,7 +17,7 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.utils.HtmlUtils;
 import com.lovellfelix.caribbeannewsstand.utils.PrefUtils;
 

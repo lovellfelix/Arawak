@@ -12,7 +12,7 @@ import android.preference.PreferenceCategory;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.FeedColumns;
 import com.lovellfelix.caribbeannewsstand.utils.PrefUtils;
 

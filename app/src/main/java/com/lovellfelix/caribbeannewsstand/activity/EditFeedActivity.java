@@ -75,7 +75,7 @@ import android.widget.TabHost;
 import android.widget.Toast;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.adapter.FiltersCursorAdapter;
 import com.lovellfelix.caribbeannewsstand.loader.BaseLoader;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.FeedColumns;

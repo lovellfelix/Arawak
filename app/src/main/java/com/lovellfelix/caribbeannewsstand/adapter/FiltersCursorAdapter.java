@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
 
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.FilterColumns;
 
 public class FiltersCursorAdapter extends ResourceCursorAdapter {

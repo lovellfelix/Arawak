@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.utils.UiUtils;
 
 public abstract class BaseActivity extends Activity {

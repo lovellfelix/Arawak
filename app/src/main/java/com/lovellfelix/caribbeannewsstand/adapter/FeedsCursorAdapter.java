@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.FeedColumns;
 import com.lovellfelix.caribbeannewsstand.utils.UiUtils;
 

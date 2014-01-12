@@ -12,7 +12,7 @@ import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
 import com.lovellfelix.caribbeannewsstand.Constants;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.EntryColumns;
 import com.lovellfelix.caribbeannewsstand.utils.PrefUtils;

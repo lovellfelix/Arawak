@@ -1,5 +1,5 @@
 <!-- From: file:/Users/lovellfelix/Dropbox/labs/mobile-app/CaribbeanNews/app/src/main/AndroidManifest.xml -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="35" android:versionName="1.4.1" package="net.fred.feedex">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="35" android:versionName="1.4.1" package="com.lovellfelix.caribbeannewsstand">
 
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19"/>
 

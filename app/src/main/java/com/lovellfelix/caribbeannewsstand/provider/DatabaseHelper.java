@@ -7,7 +7,7 @@ import android.os.Environment;
 import android.os.Handler;
 
 import com.lovellfelix.caribbeannewsstand.MainApplication;
-import net.fred.feedex.R;
+import com.lovellfelix.caribbeannewsstand.R;
 import com.lovellfelix.caribbeannewsstand.parser.OPML;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.EntryColumns;
 import com.lovellfelix.caribbeannewsstand.provider.FeedData.FeedColumns;
