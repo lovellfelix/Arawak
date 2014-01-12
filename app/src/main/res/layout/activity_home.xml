@@ -6,7 +6,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="net.fred.feedex.fragment.EntriesListFragment"
+        android:name="com.lovellfelix.caribbeannewsstand.fragment.EntriesListFragment"
         android:id="@+id/entries_list_fragment" />
 
     <ListView

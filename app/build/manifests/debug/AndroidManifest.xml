@@ -9,33 +9,33 @@
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
-    <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="net.fred.feedex.MainApplication" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
-        <service android:name="net.fred.feedex.service.RefreshService"/>
-        <service android:name="net.fred.feedex.service.FetcherService"/>
+    <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.lovellfelix.caribbeannewsstand.MainApplication" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        <service android:name="com.lovellfelix.caribbeannewsstand.service.RefreshService"/>
+        <service android:name="com.lovellfelix.caribbeannewsstand.service.FetcherService"/>
 
-        <provider android:authorities="net.fred.feedex.provider.FeedData" android:exported="true" android:name="net.fred.feedex.provider.FeedDataContentProvider"/>
+        <provider android:authorities="com.lovellfelix.caribbeannewsstand.provider.FeedData" android:exported="true" android:name="com.lovellfelix.caribbeannewsstand.provider.FeedDataContentProvider"/>
 
-        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name="net.fred.feedex.activity.HomeActivity">
+        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name="com.lovellfelix.caribbeannewsstand.activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/feeds" android:launchMode="singleTask" android:name="net.fred.feedex.activity.EditFeedsListActivity"/>
-        <activity android:launchMode="singleTask" android:name="net.fred.feedex.activity.EntryActivity">
+        <activity android:label="@string/feeds" android:launchMode="singleTask" android:name="com.lovellfelix.caribbeannewsstand.activity.EditFeedsListActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.lovellfelix.caribbeannewsstand.activity.EntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="vnd.android.cursor.item/vnd.feedex.entry"/>
             </intent-filter>
         </activity>
-        <activity android:name="net.fred.feedex.activity.GeneralPrefsActivity"/>
-        <activity android:name="net.fred.feedex.widget.WidgetConfigActivity">
+        <activity android:name="com.lovellfelix.caribbeannewsstand.activity.GeneralPrefsActivity"/>
+        <activity android:name="com.lovellfelix.caribbeannewsstand.widget.WidgetConfigActivity">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
             </intent-filter>
         </activity>
-        <activity android:name="net.fred.feedex.activity.EditFeedActivity">
+        <activity android:name="com.lovellfelix.caribbeannewsstand.activity.EditFeedActivity">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -53,7 +53,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="net.fred.feedex.widget.WidgetProvider">
+        <receiver android:name="com.lovellfelix.caribbeannewsstand.widget.WidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>
@@ -61,19 +61,19 @@
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetinfo"/>
         </receiver>
 
-        <service android:name="net.fred.feedex.widget.WidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:name="com.lovellfelix.caribbeannewsstand.widget.WidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
 
-        <receiver android:name="net.fred.feedex.receiver.BootCompletedBroadcastReceiver">
+        <receiver android:name="com.lovellfelix.caribbeannewsstand.receiver.BootCompletedBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="net.fred.feedex.receiver.ConnectionChangeReceiver">
+        <receiver android:name="com.lovellfelix.caribbeannewsstand.receiver.ConnectionChangeReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="net.fred.feedex.service.RefreshService$RefreshAlarmReceiver"/>
+        <receiver android:name="com.lovellfelix.caribbeannewsstand.service.RefreshService$RefreshAlarmReceiver"/>
     </application>
 
 </manifest>

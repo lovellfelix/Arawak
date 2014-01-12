@@ -1,5 +1,5 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-    android:configure="net.fred.feedex.widget.WidgetConfigActivity"
+    android:configure="com.lovellfelix.caribbeannewsstand.widget.WidgetConfigActivity"
     android:initialLayout="@layout/widget"
     android:minHeight="180dp"
     android:minWidth="250dp"
