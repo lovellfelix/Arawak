@@ -231,7 +231,7 @@ public class HomeActivity extends BaseActivity implements LoaderManager.LoaderCa
         boolean isOpened = mDrawerLayout.isDrawerOpen(mDrawerList);
         if (isOpened && !mIsDrawerMoving || !isOpened && mIsDrawerMoving) {
             getActionBar().setTitle(R.string.app_name);
-            getActionBar().setIcon(R.drawable.icon);
+            getActionBar().setIcon(R.drawable.ic_launcher);
 
             MenuInflater inflater = getMenuInflater();
             inflater.inflate(R.menu.drawer, menu);

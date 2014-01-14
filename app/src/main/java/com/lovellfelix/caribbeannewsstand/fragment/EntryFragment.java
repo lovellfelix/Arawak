@@ -419,7 +419,7 @@ public class EntryFragment extends Fragment implements BaseActivity.OnFullScreen
             if (bitmap != null) {
                 activity.getActionBar().setIcon(new BitmapDrawable(getResources(), bitmap));
             } else {
-                activity.getActionBar().setIcon(R.drawable.icon);
+                activity.getActionBar().setIcon(R.drawable.ic_launcher);
             }
 
             mFavorite = entryCursor.getInt(mIsFavoritePos) == 1;
