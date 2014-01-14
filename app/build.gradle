@@ -18,6 +18,17 @@ android {
 }
 
 dependencies {
+
+    // Google Play Services
+    compile 'com.google.android.gms:play-services:4.0.30'
+
+    // Support Libraries
     compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:gridlayout-v7:+'
+    compile 'com.android.support:mediarouter-v7:1+'
     compile files('libs/jsoup-1.7.3.jar')
+
+
+
 }
