@@ -12,7 +12,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
+import com.lovellfelix.arawak.R;
 public class UiUtils {
 
     public static DateFormat DATE_SHORT_FORMAT = null;
@@ -31,7 +31,7 @@ public class UiUtils {
 
     static public void setPreferenceTheme(Activity a) {
         if (!PrefUtils.getBoolean(PrefUtils.LIGHT_THEME, true)) {
-            a.setTheme(android.R.style.Theme_Holo);
+            a.setTheme(R.style.Theme_Cnsdark);
         }
     }
 
