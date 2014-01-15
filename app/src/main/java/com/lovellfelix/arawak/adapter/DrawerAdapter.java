@@ -1,0 +1,213 @@
+package com.lovellfelix.arawak.adapter;
+
+import android.content.Context;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.lovellfelix.arawak.MainApplication;
+import com.lovellfelix.arawak.R;
+import com.lovellfelix.arawak.utils.UiUtils;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class DrawerAdapter extends BaseAdapter {
+
+    private static final int POS_ID = 0;
+    private static final int POS_URL = 1;
+    private static final int POS_NAME = 2;
+    private static final int POS_IS_GROUP = 3;
+    private static final int POS_GROUP_ID = 4;
+    private static final int POS_ICON = 5;
+    private static final int POS_LAST_UPDATE = 6;
+    private static final int POS_ERROR = 7;
+    private static final int POS_UNREAD = 8;
+    private static final int POS_ALL_UNREAD = 9;
+    private static final int POS_FAVORITES_UNREAD = 10;
+
+    private static final int ITEM_PADDING = UiUtils.dpToPixel(20);
+    private static final int NORMAL_TEXT_COLOR = Color.parseColor("#EEEEEE");
+    private static final int GROUP_TEXT_COLOR = Color.parseColor("#BBBBBB");
+
+    private static final String COLON = MainApplication.getContext().getString(R.string.colon);
+
+    private static final int CACHE_MAX_ENTRIES = 100;
+    private final Map<Long, String> mFormattedDateCache = new LinkedHashMap<Long, String>(CACHE_MAX_ENTRIES + 1, .75F, true) {
+        private static final long serialVersionUID = -3678524849080041298L;
+
+        @Override
+        public boolean removeEldestEntry(Map.Entry<Long, String> eldest) {
+            return size() > CACHE_MAX_ENTRIES;
+        }
+    };
+
+    private final Context mContext;
+    private Cursor mFeedsCursor;
+
+    private static class ViewHolder {
+        public ImageView iconView;
+        public TextView titleTxt;
+        public TextView stateTxt;
+        public TextView unreadTxt;
+        public View separator;
+    }
+
+    public DrawerAdapter(Context context, Cursor feedCursor) {
+        mContext = context;
+        mFeedsCursor = feedCursor;
+    }
+
+    public void setCursor(Cursor feedCursor) {
+        mFeedsCursor = feedCursor;
+        notifyDataSetChanged();
+    }
+
+    public View getView(int position, View convertView, ViewGroup parent) {
+        LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        if (convertView == null) {
+            convertView = inflater.inflate(R.layout.item_drawer_list, parent, false);
+
+            ViewHolder holder = new ViewHolder();
+            holder.iconView = (ImageView) convertView.findViewById(R.id.icon);
+            holder.titleTxt = (TextView) convertView.findViewById(android.R.id.text1);
+            holder.stateTxt = (TextView) convertView.findViewById(android.R.id.text2);
+            holder.unreadTxt = (TextView) convertView.findViewById(R.id.unread_count);
+            holder.separator = convertView.findViewById(R.id.separator);
+            convertView.setTag(holder);
+        }
+
+        ViewHolder holder = (ViewHolder) convertView.getTag();
+
+        // default init
+        holder.iconView.setImageDrawable(null);
+        holder.titleTxt.setText("");
+        holder.titleTxt.setTextColor(NORMAL_TEXT_COLOR);
+        holder.titleTxt.setAllCaps(false);
+        holder.stateTxt.setVisibility(View.GONE);
+        holder.unreadTxt.setText("");
+        convertView.setPadding(0, 0, 0, 0);
+        holder.separator.setVisibility(View.GONE);
+
+        if (position == 0 || position == 1) {
+            holder.titleTxt.setText(position == 0 ? R.string.all : R.string.favorites);
+            holder.iconView.setImageResource(position == 0 ? R.drawable.ic_statusbar_rss : R.drawable.dimmed_rating_important);
+
+            if (mFeedsCursor != null && mFeedsCursor.moveToFirst()) {
+                int unread = mFeedsCursor.getInt(position == 0 ? POS_ALL_UNREAD : POS_FAVORITES_UNREAD);
+                if (unread != 0) {
+                    holder.unreadTxt.setText(String.valueOf(unread));
+                }
+            }
+        } else if (position == 2) {
+            holder.titleTxt.setText(android.R.string.search_go);
+            holder.iconView.setImageResource(R.drawable.action_search);
+        } else if (mFeedsCursor != null && mFeedsCursor.moveToPosition(position - 3)) {
+            holder.titleTxt.setText((mFeedsCursor.isNull(POS_NAME) ? mFeedsCursor.getString(POS_URL) : mFeedsCursor.getString(POS_NAME)));
+
+            if (mFeedsCursor.getInt(POS_IS_GROUP) == 1) {
+                holder.titleTxt.setTextColor(GROUP_TEXT_COLOR);
+                holder.titleTxt.setAllCaps(true);
+                holder.separator.setVisibility(View.VISIBLE);
+            } else {
+                holder.stateTxt.setVisibility(View.VISIBLE);
+
+                if (mFeedsCursor.isNull(POS_ERROR)) {
+                    long timestamp = mFeedsCursor.getLong(POS_LAST_UPDATE);
+
+                    // Date formatting is expensive, look at the cache
+                    String formattedDate = mFormattedDateCache.get(timestamp);
+                    if (formattedDate == null) {
+
+                        formattedDate = mContext.getString(R.string.update) + COLON;
+
+                        if (timestamp == 0) {
+                            formattedDate += mContext.getString(R.string.never);
+                        } else {
+                            formattedDate += UiUtils.easyreadDateTimeString(timestamp);
+                        }
+
+                        mFormattedDateCache.put(timestamp, formattedDate);
+                    }
+
+                    holder.stateTxt.setText(formattedDate);
+                } else {
+                    holder.stateTxt.setText(new StringBuilder(mContext.getString(R.string.error)).append(COLON).append(mFeedsCursor.getString(POS_ERROR)));
+                }
+
+                byte[] iconBytes = mFeedsCursor.getBlob(POS_ICON);
+                if (iconBytes != null && iconBytes.length > 0) {
+                    Bitmap bitmap = BitmapFactory.decodeByteArray(iconBytes, 0, iconBytes.length);
+                    holder.iconView.setImageBitmap(bitmap);
+                } else {
+                    holder.iconView.setImageResource(R.drawable.ic_launcher);
+                }
+
+                int unread = mFeedsCursor.getInt(POS_UNREAD);
+                if (unread != 0) {
+                    holder.unreadTxt.setText(String.valueOf(unread));
+                }
+            }
+
+            if (!mFeedsCursor.isNull(POS_GROUP_ID)) { // First level
+                convertView.setPadding(ITEM_PADDING, 0, 0, 0);
+            }
+        }
+
+        return convertView;
+    }
+
+    @Override
+    public int getCount() {
+        if (mFeedsCursor != null) {
+            return mFeedsCursor.getCount() + 3;
+        }
+        return 0;
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return null;
+    }
+
+    @Override
+    public long getItemId(int position) {
+        if (mFeedsCursor != null && mFeedsCursor.moveToPosition(position - 3)) {
+            return mFeedsCursor.getLong(POS_ID);
+        }
+
+        return -1;
+    }
+
+    public byte[] getItemIcon(int position) {
+        if (mFeedsCursor != null && mFeedsCursor.moveToPosition(position - 3)) {
+            return mFeedsCursor.getBlob(POS_ICON);
+        }
+
+        return null;
+    }
+
+    public String getItemName(int position) {
+        if (mFeedsCursor != null && mFeedsCursor.moveToPosition(position - 3)) {
+            return mFeedsCursor.isNull(POS_NAME) ? mFeedsCursor.getString(POS_URL) : mFeedsCursor.getString(POS_NAME);
+        }
+
+        return null;
+    }
+
+    public boolean isItemAGroup(int position) {
+        if (mFeedsCursor != null && mFeedsCursor.moveToPosition(position - 3)) {
+            return mFeedsCursor.getInt(POS_IS_GROUP) == 1;
+        }
+
+        return false;
+    }
+}

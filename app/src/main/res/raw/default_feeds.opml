@@ -2,7 +2,9 @@
 <opml version="1.1">
 <body>
 	<outline title="News" >
-		<outline title="Times - World" type="rss" xmlUrl="http://rss.nytimes.com/services/xml/rss/nyt/World.xml" retrieveFullText='true'/>
+				<outline title="Anguilla News" type="rss" xmlUrl="http://www.anguillanews.com/enews/index.php/feed/index.rss" retrieveFullText='true'/>
+        		<outline title="VI Standpoint" type="rss" xmlUrl="http://www.vistandpoint.com/feed/" retrieveFullText='true'/>
+        		<outline title="Cayman News Service" type="rss" xmlUrl="http://caymannewsservice.com/rss.xml" retrieveFullText='true'/>
 	</outline>
 </body>
 </opml>

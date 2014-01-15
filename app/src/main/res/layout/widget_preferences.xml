@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <com.lovellfelix.caribbeannewsstand.widget.ColorPickerDialogPreference
+    <com.lovellfelix.arawak.widget.ColorPickerDialogPreference
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:dialogLayout="@layout/dialog_color_transparency_picker"
