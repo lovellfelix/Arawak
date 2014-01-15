@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lovellfelix.arawak"
     android:installLocation="auto"
-    android:versionCode="35"
-    android:versionName="1.4.1">
+    android:versionCode="1"
+    android:versionName="1">
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -20,7 +20,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        android:theme="@style/Theme.Cns">
         <service android:name="com.lovellfelix.arawak.service.RefreshService" />
         <service android:name="com.lovellfelix.arawak.service.FetcherService" />
 
