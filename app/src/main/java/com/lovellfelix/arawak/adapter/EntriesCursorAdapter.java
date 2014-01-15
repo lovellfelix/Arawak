@@ -23,6 +23,7 @@ import com.lovellfelix.arawak.R;
 import com.lovellfelix.arawak.provider.FeedData;
 import com.lovellfelix.arawak.provider.FeedData.EntryColumns;
 import com.lovellfelix.arawak.provider.FeedData.FeedColumns;
+import com.lovellfelix.arawak.utils.StringUtils;
 import com.lovellfelix.arawak.utils.UiUtils;
 
 import java.util.Vector;
@@ -110,7 +111,7 @@ public class EntriesCursorAdapter extends ResourceCursorAdapter {
             }
         }
 
-	    holder.dateTextView.setText(UiUtils.easyreadDateTimeString(cursor.getLong(mDatePos)));
+        holder.dateTextView.setText(StringUtils.getDateTimeString(cursor.getLong(mDatePos)));
 
         holder.isReadCb.setOnCheckedChangeListener(null);
         if (mMarkedAsUnreadEntries.contains(id) || (cursor.isNull(mIsReadPos) && !mMarkedAsReadEntries.contains(id))) {

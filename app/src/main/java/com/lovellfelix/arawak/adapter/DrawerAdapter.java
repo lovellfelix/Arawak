@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.lovellfelix.arawak.MainApplication;
 import com.lovellfelix.arawak.R;
+import com.lovellfelix.arawak.utils.StringUtils;
 import com.lovellfelix.arawak.utils.UiUtils;
 
 import java.util.LinkedHashMap;
@@ -132,7 +133,7 @@ public class DrawerAdapter extends BaseAdapter {
                         if (timestamp == 0) {
                             formattedDate += mContext.getString(R.string.never);
                         } else {
-                            formattedDate += UiUtils.easyreadDateTimeString(timestamp);
+                            formattedDate += StringUtils.getDateTimeString(timestamp);
                         }
 
                         mFormattedDateCache.put(timestamp, formattedDate);

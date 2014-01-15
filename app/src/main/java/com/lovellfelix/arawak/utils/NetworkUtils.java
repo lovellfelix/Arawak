@@ -36,10 +36,6 @@ public class NetworkUtils {
     public static final String IMAGE_FOLDER = IMAGE_FOLDER_FILE.getAbsolutePath() + '/';
     public static final String ID_SEPARATOR = "__";
 
-    public static final String PERCENT = "%";
-    // This can be any valid filename character sequence which does not contain '%'
-    public static final String PERCENT_REPLACE = "____";
-
     private static final String GZIP = "gzip";
     private static final String FILE_FAVICON = "/favicon.ico";
     private static final String PROTOCOL_SEPARATOR = "://";
@@ -69,16 +65,7 @@ public class NetworkUtils {
     }
 
     public static String getDownloadedImagePath(long entryId, String imgUrl) {
-        try {
-            // replace the '%' that may occur while urlencode such that the img-src url (in the abstract text) does reinterpret the
-            // parameters
-            return (IMAGE_FOLDER + entryId + ID_SEPARATOR + URLEncoder.encode(
-                    imgUrl.substring(imgUrl.lastIndexOf('/') + 1), Constants.UTF8)).replace(PERCENT, PERCENT_REPLACE);
-        } catch (UnsupportedEncodingException e) {
-            // UTF-8 should be supported
-        }
-
-        return null;
+        return IMAGE_FOLDER + entryId + ID_SEPARATOR + StringUtils.getMd5(imgUrl);
     }
 
     public static void downloadImage(long entryId, String imgUrl) throws IOException {
@@ -267,4 +254,5 @@ public class NetworkUtils {
             return inputStream;
         }
     }
+
 }
