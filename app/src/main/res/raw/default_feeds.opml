@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.1">
 <body>
-	<outline title="News" >
+	<outline title="ANGUILLA" >
 				<outline title="Anguilla News" type="rss" xmlUrl="http://www.anguillanews.com/enews/index.php/feed/index.rss" retrieveFullText='true'/>
-        		<outline title="VI Standpoint" type="rss" xmlUrl="http://www.vistandpoint.com/feed/" retrieveFullText='true'/>
-        		<outline title="Cayman News Service" type="rss" xmlUrl="http://caymannewsservice.com/rss.xml" retrieveFullText='true'/>
+        		<outline title="The Anguillian" type="rss" xmlUrl="http://feeds.feedburner.com/TheAnguillian" retrieveFullText='true'/>
 	</outline>
+	<outline title="ANTIGUA" >
+				<outline title="Antigua Observer" type="rss" xmlUrl="http://www.antiguaobserver.com/feed/" retrieveFullText='true'/>
+	</outline>
+	<outline title="BAHAMAS" >
+				<outline title="Bahamas Journal" type="rss" xmlUrl="http://jonesbahamas.com/feed/" retrieveFullText='true'/>
+				<outline title="ZNS Bahamas" type="rss" xmlUrl="http://zns.moonfruit.com/feeds/blogposts" retrieveFullText='true'/>
+				<outline title="The Bahamas Weekly" type="rss" xmlUrl="http://www.thebahamasweekly.com/publish/rss.xml" retrieveFullText='true'/>
+	</outline>
+    <outline title="Barbados" >
+                <outline title="Barbados Today" type="rss" xmlUrl="http://www.barbadostoday.bb/feed" retrieveFullText='true'/>
+                <outline title="Nation News" type="rss" xmlUrl="http://www.nationnews.com/site/feed/" retrieveFullText='true'/>
+    </outline>
 </body>
 </opml>
