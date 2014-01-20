@@ -164,6 +164,7 @@ public class OPML {
         private static final String ATTRIBUTE_TEXT = "text";
         private static final String ATTRIBUTE_IS_REGEX = "isRegex";
         private static final String ATTRIBUTE_IS_APPLIED_TO_TITLE = "isAppliedToTitle";
+        private static final String ATTRIBUTE_SUBSCRIPTION = "subscription";
 
         private boolean bodyTagEntered = false;
         private boolean feedEntered = false;
@@ -208,6 +209,7 @@ public class OPML {
                         values.put(FeedColumns.GROUP_ID, groupId);
                     }
                     values.put(FeedColumns.RETRIEVE_FULLTEXT, Constants.TRUE.equals(attributes.getValue("", ATTRIBUTE_RETRIEVE_FULLTEXT)));
+                    values.put(FeedColumns.SUBSCRIPTION, Constants.TRUE.equals(attributes.getValue("", ATTRIBUTE_SUBSCRIPTION)));
 
                     Cursor cursor = cr.query(FeedColumns.CONTENT_URI, null, FeedColumns.URL + Constants.DB_ARG,
                             new String[]{url}, null);

@@ -36,6 +36,7 @@ public class FeedData {
         public static final String LAST_UPDATE = "lastupdate";
         public static final String REAL_LAST_UPDATE = "reallastupdate";
         public static final String RETRIEVE_FULLTEXT = "retrievefulltext";
+        public static final String SUBSCRIPTION = "subscription";
         public static final String ICON = "icon";
         public static final String ERROR = "error";
         public static final String PRIORITY = "priority";
@@ -43,7 +44,7 @@ public class FeedData {
 
         public static final String[][] COLUMNS = new String[][]{{_ID, TYPE_PRIMARY_KEY}, {URL, TYPE_TEXT_UNIQUE}, {NAME, TYPE_TEXT}, {IS_GROUP, TYPE_BOOLEAN},
                 {GROUP_ID, TYPE_EXTERNAL_ID}, {LAST_UPDATE, TYPE_DATE_TIME}, {REAL_LAST_UPDATE, TYPE_DATE_TIME}, {RETRIEVE_FULLTEXT, TYPE_BOOLEAN},
-                {ICON, "BLOB"}, {ERROR, TYPE_TEXT}, {PRIORITY, TYPE_INT}, {FETCH_MODE, TYPE_INT}};
+                {ICON, "BLOB"}, {ERROR, TYPE_TEXT}, {PRIORITY, TYPE_INT}, {FETCH_MODE, TYPE_INT},{SUBSCRIPTION, TYPE_BOOLEAN}};
 
         public static final Uri CONTENT_URI = Uri.parse(CONTENT_AUTHORITY + "/feeds");
 
