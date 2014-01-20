@@ -253,6 +253,9 @@ public class HomeActivity extends BaseActivity implements LoaderManager.LoaderCa
             case R.id.menu_settings_main:
                 startActivity(new Intent(this, GeneralPrefsActivity.class));
                 return true;
+            case R.id.menu_search_feed:
+                startActivity(new Intent(this, GeneralPrefsActivity.class));
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
