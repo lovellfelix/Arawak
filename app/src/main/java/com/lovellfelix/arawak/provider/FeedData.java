@@ -4,6 +4,8 @@ import android.content.ContentValues;
 import android.net.Uri;
 import android.provider.BaseColumns;
 import android.text.TextUtils;
+import com.lovellfelix.arawak.utils.PrefUtils;
+
 
 import com.lovellfelix.arawak.Constants;
 
@@ -204,4 +206,9 @@ public class FeedData {
         values.putNull(EntryColumns.IS_READ);
         return values;
     }
+
+    public static boolean shouldShowReadEntries(Uri uri) {
+        boolean alwaysShowRead = EntryColumns.FAVORITES_CONTENT_URI.equals(uri) || (FeedDataContentProvider.URI_MATCHER.match(uri) == FeedDataContentProvider.URI_SEARCH);
+        return alwaysShowRead || PrefUtils.getBoolean(PrefUtils.SHOW_READ, true);
+        }
 }

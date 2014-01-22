@@ -38,7 +38,6 @@ import com.lovellfelix.arawak.provider.FeedData;
 import com.lovellfelix.arawak.provider.FeedData.EntryColumns;
 import com.lovellfelix.arawak.provider.FeedData.FeedColumns;
 import com.lovellfelix.arawak.service.FetcherService;
-import com.lovellfelix.arawak.utils.PrefUtils;
 import com.lovellfelix.arawak.utils.UiUtils;
 import com.lovellfelix.arawak.view.EntryView;
 
@@ -388,7 +387,7 @@ public class EntryFragment extends Fragment implements BaseActivity.OnFullScreen
 
         if (mBaseUri != null) {
             Bundle b = getActivity().getIntent().getExtras();
-            String whereClause = PrefUtils.getBoolean(PrefUtils.SHOW_READ, true) || EntryColumns.FAVORITES_CONTENT_URI.equals(mBaseUri) ||
+            String whereClause = FeedData.shouldShowReadEntries(mBaseUri) ||
                     (b != null && b.getBoolean(Constants.INTENT_FROM_WIDGET, false)) ? null : EntryColumns.WHERE_UNREAD;
 
             // Load the entriesIds list. Should be in a loader... but I was too lazy to do so
