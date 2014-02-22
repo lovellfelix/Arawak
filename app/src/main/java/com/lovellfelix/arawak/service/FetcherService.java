@@ -139,7 +139,7 @@ public class FetcherService extends IntentService {
                                 .setTicker(text) //
                                 .setWhen(System.currentTimeMillis()) //
                                 .setAutoCancel(true) //
-                                .setContentTitle(getString(R.string.feedex_feeds)) //
+                                .setContentTitle(getString(R.string.Arawak_feeds)) //
                                 .setContentText(text) //
                                 .setLights(0xffffffff, 300, 1000);
 

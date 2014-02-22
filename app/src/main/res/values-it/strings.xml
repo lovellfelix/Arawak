@@ -28,8 +28,7 @@
     <string name="menu_settings">Impostazioni</string>
     <string name="menu_refresh">Aggiorna</string>
     <string name="menu_all_read">Segna tutti come letti</string>
-    <string name="feedex_feeds">Feed di FeedEx</string>
-    <string name="new_entries">nuovi articoli</string>
+    <string name="new_entries">Nuovi Articoli pubblicati</string>
     <string name="error">Errore</string>
     <string name="network_error">Nessuna connessione disponibile</string>
     <string name="loading">Caricamento in corso…</string>

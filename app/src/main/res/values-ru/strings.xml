@@ -28,8 +28,7 @@
     <string name="menu_settings">Настройки</string>
     <string name="menu_refresh">Обновить</string>
     <string name="menu_all_read">Пометить все как прочитанное</string>
-    <string name="feedex_feeds">FeedEx корма</string>
-    <string name="new_entries">новые записи</string>
+    <string name="new_entries">Новые статьи Опубликованные</string>
     <string name="error">Ошибка</string>
     <string name="network_error">Нет подключения к сети</string>
     <string name="loading">Загрузка…</string>

@@ -28,8 +28,7 @@
     <string name="menu_settings">Inställningar</string>
     <string name="menu_refresh">Uppdatera</string>
     <string name="menu_all_read">Mark som läst</string>
-    <string name="feedex_feeds">FeedEx feeds</string>
-    <string name="new_entries">nya inlägg</string>
+    <string name="new_entries">Nya artiklar publicerade</string>
     <string name="error">Fel</string>
     <string name="network_error">Nätverket är inte tillgängligt</string>
     <string name="loading">Laddar…</string>
