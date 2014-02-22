@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="defaultBackground">#EDF8F6</color>
+    <color name="white">#fff</color>
+    <color name="light_gray">#949494</color>
+    <color name="drawerBackground">#fff</color>
+    <color name="drawerTitle">#ff599ed7</color>
+    <color name="drawerSeperator">#ff599ed7</color>
+
+</resources>
