@@ -5,7 +5,7 @@
     android:paddingTop="5dip"
     android:background="?android:attr/activatedBackgroundIndicator">
 
-    <CheckBox
+    <!--<CheckBox
         android:id="@android:id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,7 +13,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="5dip"
         android:focusable="false"
-        android:focusableInTouchMode="false" />
+        android:focusableInTouchMode="false" />-->
 
     <ImageView
         android:id="@android:id/icon"

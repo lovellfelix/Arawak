@@ -62,7 +62,7 @@ public class EntriesCursorAdapter extends ResourceCursorAdapter {
             holder.titleTextView = (TextView) view.findViewById(android.R.id.text1);
             holder.dateTextView = (TextView) view.findViewById(android.R.id.text2);
             holder.starImgView = (ImageView) view.findViewById(android.R.id.icon);
-            holder.isReadCb = (CheckBox) view.findViewById(android.R.id.checkbox);
+           // holder.isReadCb = (CheckBox) view.findViewById(android.R.id.checkbox);
             view.setTag(holder);
         }
 
@@ -122,31 +122,31 @@ public class EntriesCursorAdapter extends ResourceCursorAdapter {
             holder.dateTextView.setText(StringUtils.getDateTimeString(cursor.getLong(mDatePos)));
         }
 
-        holder.isReadCb.setOnCheckedChangeListener(null);
+        //holder.isReadCb.setOnCheckedChangeListener(null);
         if (mMarkedAsUnreadEntries.contains(id) || (cursor.isNull(mIsReadPos) && !mMarkedAsReadEntries.contains(id))) {
             holder.titleTextView.setEnabled(true);
             holder.dateTextView.setEnabled(true);
-            holder.isReadCb.setChecked(false);
+        //    holder.isReadCb.setChecked(false);
         } else {
             holder.titleTextView.setEnabled(false);
             holder.dateTextView.setEnabled(false);
-            holder.isReadCb.setChecked(true);
+        //    holder.isReadCb.setChecked(true);
         }
 
-        holder.isReadCb.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    markAsRead(id);
-                    holder.titleTextView.setEnabled(false);
-                    holder.dateTextView.setEnabled(false);
-                } else {
-                    markAsUnread(id);
-                    holder.titleTextView.setEnabled(true);
-                    holder.dateTextView.setEnabled(true);
-                }
-            }
-        });
+        //holder.isReadCb.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        //    @Override
+        //    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        //        if (isChecked) {
+        //            markAsRead(id);
+        //            holder.titleTextView.setEnabled(false);
+        //            holder.dateTextView.setEnabled(false);
+        //        } else {
+        //            markAsUnread(id);
+        //            holder.titleTextView.setEnabled(true);
+        //            holder.dateTextView.setEnabled(true);
+        //        }
+        //    }
+        //});
     }
 
     public void markAllAsRead() {
