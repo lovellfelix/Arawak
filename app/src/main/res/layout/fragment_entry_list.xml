@@ -26,7 +26,13 @@
             android:id="@android:id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="fill"
-            android:drawSelectorOnTop="false" />
+            android:layout_gravity="center"
+            android:drawSelectorOnTop="false"
+            android:background="@color/defaultBackground"
+            android:listSelector="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent" />
+
+
+
     </FrameLayout>
 </LinearLayout>

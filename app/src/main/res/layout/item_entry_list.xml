@@ -1,9 +1,48 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingBottom="7dip"
-    android:paddingTop="5dip"
-    android:background="?android:attr/activatedBackgroundIndicator">
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:clickable="false">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:minHeight="100dp"
+        android:background="@drawable/card_background"
+        android:foreground="@drawable/selectable_background_cns">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--suppress AndroidLintContentDescription -->
+
+
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="@dimen/thumbnail_width"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:scaleType="matrix"/>
+
+            <TextView
+                android:id="@+id/article_first_letter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/article_first_letter_font_size"
+                android:maxLength="1"/>
+
+        </FrameLayout>
 
     <!--<CheckBox
         android:id="@android:id/checkbox"
@@ -53,7 +92,7 @@
             android:singleLine="true"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textIsSelectable="false" />
-
     </LinearLayout>
-
-</RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
