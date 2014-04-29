@@ -2,17 +2,13 @@ package com.lovellfelix.arawak.adapter;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ImageView;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
@@ -73,33 +69,33 @@ public class EntriesCursorAdapter extends ResourceCursorAdapter {
         final long id = cursor.getLong(mIdPos);
         final boolean favorite = !mNotFavoriteEntries.contains(id) && (cursor.getInt(mFavoritePos) == 1 || mFavoriteEntries.contains(id));
 
-        holder.starImgView.setImageResource(favorite ? R.drawable.dimmed_rating_important : R.drawable.dimmed_rating_not_important);
-        holder.starImgView.setTag(favorite ? Constants.TRUE : Constants.FALSE);
-        holder.starImgView.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                boolean newFavorite = !Constants.TRUE.equals(view.getTag());
+        //holder.starImgView.setImageResource(favorite ? R.drawable.dimmed_rating_important : R.drawable.dimmed_rating_not_important);
+        //holder.starImgView.setTag(favorite ? Constants.TRUE : Constants.FALSE);
+        //holder.starImgView.setOnClickListener(new OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
+            //    boolean newFavorite = !Constants.TRUE.equals(view.getTag());
 
-                if (newFavorite) {
-                    view.setTag(Constants.TRUE);
-                    holder.starImgView.setImageResource(R.drawable.dimmed_rating_important);
-                    mFavoriteEntries.add(id);
-                    mNotFavoriteEntries.remove(id);
-                } else {
-                    view.setTag(Constants.FALSE);
-                    holder.starImgView.setImageResource(R.drawable.dimmed_rating_not_important);
-                    mNotFavoriteEntries.add(id);
-                    mFavoriteEntries.remove(id);
-                }
+              //  if (newFavorite) {
+              //      view.setTag(Constants.TRUE);
+                    //holder.starImgView.setImageResource(R.drawable.dimmed_rating_important);
+              //      mFavoriteEntries.add(id);
+              //      mNotFavoriteEntries.remove(id);
+              //  } else {
+              //      view.setTag(Constants.FALSE);
+                   // holder.starImgView.setImageResource(R.drawable.dimmed_rating_not_important);
+              //      mNotFavoriteEntries.add(id);
+              //      mFavoriteEntries.remove(id);
+              //  }
 
-                ContentValues values = new ContentValues();
-                values.put(EntryColumns.IS_FAVORITE, newFavorite ? 1 : 0);
+              //  ContentValues values = new ContentValues();
+              //  values.put(EntryColumns.IS_FAVORITE, newFavorite ? 1 : 0);
 
-                ContentResolver cr = MainApplication.getContext().getContentResolver();
-                Uri entryUri = ContentUris.withAppendedId(mUri, id);
-                cr.update(entryUri, values, null, null);
-            }
-        });
+              //  ContentResolver cr = MainApplication.getContext().getContentResolver();
+              //  Uri entryUri = ContentUris.withAppendedId(mUri, id);
+              //  cr.update(entryUri, values, null, null);
+            //}
+       // });
 
         if (mShowFeedInfo && mFeedIconPos > -1) {
             byte[] iconBytes = cursor.getBlob(mFeedIconPos);

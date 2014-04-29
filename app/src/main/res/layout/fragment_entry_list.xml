@@ -30,7 +30,8 @@
             android:drawSelectorOnTop="false"
             android:background="@color/defaultBackground"
             android:listSelector="@android:color/transparent"
-            android:cacheColorHint="@android:color/transparent" />
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"/>
 
 
 
